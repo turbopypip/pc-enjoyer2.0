@@ -1,10 +1,31 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Css/App.css';
-import Header from "./Header";
+import Navigation from "./Navigation";
+import DefaultPage from "./Pages/default";
+import Moterboard from "./Pages/Moterboard";
+
 function App() {
+
+  const[page, setPage] = useState(0)
+
+  const getPage = () =>{
+    switch (page){
+      case 0:
+        return (
+          <DefaultPage />
+        )
+      case 1:
+        return (
+          <Moterboard />
+        )
+    }
+  }
+
   return (
     <div className="App">
-      <Header/>
+      <Navigation setPage={setPage}/>
+
+      <>{getPage()}</>
     </div>
   );
 }
