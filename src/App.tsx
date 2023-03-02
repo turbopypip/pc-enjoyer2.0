@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './Css/App.css';
 import Navigation from "./Navigation";
-import DefaultPage from "./Pages/default";
+import DefaultPage from "./Pages/Default";
 import Moterboard from "./Pages/Moterboard";
 
 function App() {
