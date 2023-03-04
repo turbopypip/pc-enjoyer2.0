@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Moterboard = () => {
+const Motherboard = () => {
   return (
     <div>
-      Vfnthbycrfz gkfnf
+
     </div>
   );
 };
 
-export default Moterboard;
+export default Motherboard;
