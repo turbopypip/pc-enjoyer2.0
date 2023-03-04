@@ -88,14 +88,16 @@ body{
         height: 100vh;
     }
     .Pc-Enjoyer__logo {
-        font-size: 30px;
+        font-size: 32px;
         margin: 0;
         color: #3399ff;
         padding: 1rem 0 1rem 0.7rem;
         border-bottom: 0.1rem solid #4F5151;
+        cursor: pointer;
     }
     .PageLinks {
         margin: 0.7rem;
+        cursor: pointer;
     }
     .PageLinks:hover{
         text-decoration: underline #3399ff;
@@ -106,20 +108,43 @@ body{
     }
 
     /* Pages (PC) */
-    .pageContainer{
+    .PageContainer{
         flex: 1;
         margin: 1rem 13rem 0 2rem;
     }
-    .pageText{
-        text-align: left;
+    .contentParagraph{
+        display: block;
+        margin: 0 auto;
+        color: #3399ff;
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .anchorLink{
+        transition: .02s;
+        cursor: pointer;
+        opacity: 0.8;
+        color: aliceblue;
+    }
+    .anchorLink:hover{
+        opacity: 1;
     }
 
     /*Default page*/
-    .slogan{
+    .sloganAndAccesoireName{
         display: block;
         margin: 0 auto;
         color: #3399ff;
         font-size: 32px;
+        font-weight: normal;
+    }
+    .Updates{
+        margin: 0;
+        padding: 0.7rem;
+        border-top: 0.1rem solid #4F5151;
+        border-bottom: 0.1rem solid #4F5151;
+    }
+    .Updates:hover{
+        text-decoration: underline #3399ff;
     }
     /* site information*/
 
@@ -135,6 +160,7 @@ body{
     .listStyle li {
         position: relative;
         margin-top: 1rem;
+        margin-bottom: 1rem;
         padding: 0 2rem;
         font-variant: small-caps;
     }
@@ -148,7 +174,7 @@ body{
         content: "";
         left: 0;
         transition: .3s ease-in-out;
-        top: 0.2rem;
+        top: 0.3rem;
     }
 
     .listStyle li:after {
@@ -167,6 +193,11 @@ body{
 
     .listStyle li:last-child:after {
         content: none;
+    }
+
+    /*Motherboard Page*/
+    .motherboardPhoto1{
+        width: 60%;
     }
 }
 

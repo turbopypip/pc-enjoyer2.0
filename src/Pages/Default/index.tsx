@@ -1,12 +1,11 @@
-import React, {useState} from 'react';
-
-import MoneyIcon from "../../Photos/MoneyIcon.svg";
-import PhysicsIcon from "../../Photos/PhysicsIcon.svg"
+import React from 'react';
+import MoneyIcon from "../../Icons/MoneyIcon.svg";
+import PhysicsIcon from "../../Icons/PhysicsIcon.svg"
 
 const DefaultPage = () => {
   return (
-    <div  className="pageContainer">
-      <p className="slogan">PC Enjoyer. Поможем вам собрать пк и не только!</p>
+    <div  className="PageContainer">
+      <h1 className="sloganAndAccesoireName">PC Enjoyer. Поможем вам собрать пк и не только!</h1>
 
       <p>Ниже вы можете ознакомиться со списком задач, для решения которых используется наш сайт:</p>
 
@@ -31,10 +30,10 @@ const DefaultPage = () => {
       <p>Условниые обозначения:</p>
       <div className="listStyle">
         <li>
-          <p><img src={MoneyIcon} width="20"height="20"/> — Обозначение абзацев/частей статьи, описывающие потребительские качества того или иного составляющего ПК.</p>
+          <p><img src={MoneyIcon} width="20" height="20"/> — Обозначение абзацев/частей статьи, описывающие потребительские качества того или иного составляющего ПК.</p>
         </li>
         <li>
-          <p><img src={PhysicsIcon} width="20"height="20"/> — Дополнительная информация, дополнительные свойства комплектующих или же рассмотрение физических процессов, протекающих во время работы комплектующего.</p>
+          <p><img src={PhysicsIcon} width="20" height="20"/> — Дополнительная информация, дополнительные свойства комплектующих или же рассмотрение физических процессов, протекающих во время работы комплектующего.</p>
         </li>
       </div>
     </div>
