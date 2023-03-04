@@ -10,7 +10,7 @@ const ContentAnchorsList = () => {
         <li>
           <a className="anchorLink"
             onClick={(e) =>
-              HandleClickScroll(e,"description")}
+              HandleClickScroll(e,"motherboardDescription")}
           >Описание</a>
         </li>
         <li>
@@ -34,23 +34,38 @@ const ContentAnchorsList = () => {
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"motherboardCompatibility")}
+               HandleClickScroll(e,"motherboardChipset")}
           >Чипсет материнской платы</a>
         </li>
         <li>
-          <a className="anchorLink">VRM материнской платы</a>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"motherboardVRM")}
+          >VRM материнской платы</a>
         </li>
         <li>
-          <a className="anchorLink">Охлаждение системы питания</a>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"motherboardPowerSystemCooling")}
+          >Охлаждение системы питания</a>
         </li>
         <li>
-          <a className="anchorLink">QVL список, каналы и топология материнской платы</a>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"motherboardQVLCanalsTopology")}
+          >QVL список, каналы и топология материнской платы</a>
         </li>
         <li>
-          <a className="anchorLink">Питание материнской платы</a>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"motherboardPowerSupply")}
+          >Питание материнской платы</a>
         </li>
         <li>
-          <a className="anchorLink">Разъемы</a>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"motherboardConnectors")}
+          >Разъемы</a>
         </li>
         <li>
           <a className="anchorLink">Дополнительные сведения</a>
