@@ -8,23 +8,34 @@ const ContentAnchorsList = () => {
 
       <ul className="listStyle">
         <li>
-          <a
-            className="anchorLink"
+          <a className="anchorLink"
             onClick={(e) =>
               HandleClickScroll(e,"description")}
           >Описание</a>
         </li>
         <li>
-          <a className="anchorLink">Размеры (форм-факторы) материнских плат</a>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"motherboardSizes")}
+          >Размеры (форм-факторы) материнских плат</a>
         </li>
         <li>
-          <a className="anchorLink">Сокет материнской платы</a>
+          <a className="anchorLink"
+            onClick={(e) =>
+              HandleClickScroll(e,"motherboardSocket")}
+          >Сокет материнской платы</a>
         </li>
         <li>
-          <a className="anchorLink">Совместимость процессора и BIOS платы</a>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"motherboardCompatibility")}
+          >Совместимость процессора и BIOS платы</a>
         </li>
         <li>
-          <a className="anchorLink">Чипсет материнской платы</a>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"motherboardCompatibility")}
+          >Чипсет материнской платы</a>
         </li>
         <li>
           <a className="anchorLink">VRM материнской платы</a>

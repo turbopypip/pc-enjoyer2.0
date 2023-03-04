@@ -52,6 +52,12 @@ body{
 }
 
 @media screen and (min-width: 720px){
+    ::-webkit-scrollbar{
+        width: 10px;
+        height: 1px;
+        background-color: #0d1117;
+    }
+
     ::-webkit-scrollbar-thumb {
         padding: 3px;
         background-color: rgb(113, 117, 121);
@@ -65,7 +71,6 @@ body{
     }
 
     /* Navigation panel (PC)*/
-
     .NavigationColumn__container{
         z-index: 2;
         box-sizing: border-box;
@@ -79,7 +84,6 @@ body{
         border-right: 0.1rem solid #4F5151;
         background-color: #161b22;
     }
-
     .NavigationColumn {
         margin: 0;
         padding-left: 1rem;
@@ -87,13 +91,16 @@ body{
         list-style-type: none;
         height: 100vh;
     }
-    .Pc-Enjoyer__logo {
+    .Pc-EnjoyerLogo {
         font-size: 32px;
         margin: 0;
         color: #3399ff;
         padding: 1rem 0 1rem 0.7rem;
         border-bottom: 0.1rem solid #4F5151;
         cursor: pointer;
+    }
+    .Pc-EnjoyerLogo:hover{
+        text-shadow: 0px 0px 7px #4f5151;
     }
     .PageLinks {
         margin: 0.7rem;
@@ -107,6 +114,7 @@ body{
         color: #3399ff;
     }
 
+
     /* Pages (PC) */
     .PageContainer{
         flex: 1;
@@ -114,7 +122,7 @@ body{
     }
     .contentParagraph{
         display: block;
-        margin: 0 auto;
+        margin: 2.5rem auto;
         color: #3399ff;
         font-size: 24px;
         font-weight: normal;
@@ -122,12 +130,49 @@ body{
     .anchorLink{
         transition: .02s;
         cursor: pointer;
-        opacity: 0.8;
+        opacity: 1;
         color: aliceblue;
     }
     .anchorLink:hover{
-        opacity: 1;
+        text-decoration: underline #3399ff;
     }
+    /*collapsible text*/
+    .collapsibleTextButton {
+        font-weight: 600;
+        background-color: #24292f;
+        color: #dddddd;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+    .active, .collapsibleTextButton:hover {
+        background-color: #24293f;
+    }
+    .collapsibleText {
+        border-left: 1px solid #24292f;
+        border-bottom: 1px solid #24292f;
+        border-right: 1px solid #24292f;
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    .collapsibleTextButton:after {
+        content: '\02795';
+        font-size: 13px;
+        color: white;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .active:after {
+        content: "\2796";
+    }
+
 
     /*Default page*/
     .sloganAndAccesoireName{
@@ -146,8 +191,9 @@ body{
     .Updates:hover{
         text-decoration: underline #3399ff;
     }
-    /* site information*/
 
+
+    /* site information*/
     .listStyle {
         max-width:70% ;
         margin: 3rem 0 3rem 0;
@@ -164,7 +210,6 @@ body{
         padding: 0 2rem;
         font-variant: small-caps;
     }
-
     .listStyle li:before {
         position: absolute;
         width: 7px;
@@ -176,7 +221,6 @@ body{
         transition: .3s ease-in-out;
         top: 0.3rem;
     }
-
     .listStyle li:after {
         position: absolute;
         border-left: 1px dotted #4F5151;
@@ -186,18 +230,23 @@ body{
         left: 0.2rem;
         top: 1rem;
     }
-
     .listStyle li:hover:before {
         box-shadow: 0 0 0 5px #4F5151;
     }
-
     .listStyle li:last-child:after {
         content: none;
     }
 
+
     /*Motherboard Page*/
+
+    /*Motherboard Page photos*/
     .motherboardPhoto1{
         width: 60%;
+    }
+    .motherboardPhoto2{
+        width: 60%;
+        border: 0.1rem solid #4f5151;
     }
 }
 

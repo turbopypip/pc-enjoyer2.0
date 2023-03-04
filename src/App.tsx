@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './Css/App.css';
 import Navigation from "./Navigation";
 import DefaultPage from "./Pages/Default";
-import Moterboard from "./Pages/Moterboard";
+import Motherboard from "./Pages/Moterboard";
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
         )
       case 1:
         return (
-          <Moterboard />
+          <Motherboard />
         )
     }
   }
