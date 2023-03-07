@@ -68,10 +68,16 @@ const ContentAnchorsList = () => {
           >Разъемы</a>
         </li>
         <li>
-          <a className="anchorLink">Дополнительные сведения</a>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"motherboardExtraInformation")}
+          >Дополнительные сведения</a>
         </li>
         <li>
-          <a className="anchorLink">Алгоритм выбора материнской платы</a>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"motherboardSelectionAlgorithm")}
+          >Алгоритм выбора материнской платы</a>
         </li>
       </ul>
     </>

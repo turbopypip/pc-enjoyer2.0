@@ -49,6 +49,7 @@ body{
     background-color: #0d1117;
     color: rgb(255, 255, 255);
     font-family: 'Montserrat';
+    font-size: 14px;
 }
 
 @media screen and (min-width: 720px){
@@ -94,6 +95,7 @@ body{
         flex-direction: column;
         list-style-type: none;
         height: 100vh;
+        flex: 1;
     }
 
     .Pc-EnjoyerLogo {
@@ -222,6 +224,13 @@ body{
 
     /*Motherboard Page*/
 
+    .listWithM2SizesAndTypes{
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
     /*Motherboard Page photos*/
     .motherboardPhoto1{
         width: 60%;
@@ -266,5 +275,24 @@ body{
     .motherboardPhoto14{
         width: 95%;
     }
+    .motherboardPhoto15{
+        width: 100%;
+    }
+    .motherboardPhoto16{
+        width: 60%;
+    }
+    .motherboardPhoto17{
+        width: 70%;
+    }
+    .motherboardPhoto18{
+        width: 70%;
+    }
+    .motherboardPhoto19{
+        width: 70%;
+    }
+    .motherboardPhoto20{
+        width: 40%;
+    }
+
 }
 
