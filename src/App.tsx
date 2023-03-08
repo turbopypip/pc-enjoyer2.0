@@ -5,7 +5,7 @@ import DefaultPage from "./Pages/Default";
 import Motherboard from "./Pages/Moterboard";
 import CPU from "./Pages/CPU";
 
-function App() {
+const App = () => {
 
   const[page, setPage] = useState(0)
 
