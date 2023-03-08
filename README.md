@@ -1,3 +1,1 @@
-# Getting Started with Create React App
-### The new build of old website!
-
+# The website witch you can use to know how to build your PC
