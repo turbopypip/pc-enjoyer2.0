@@ -294,5 +294,20 @@ body{
         width: 40%;
     }
 
+    /*cpu page*/
+    /*cpu page photos*/
+
+    .cpuPhoto1{
+        width: 95%;
+    }
+    .cpuPhoto2{
+        width: 95%;
+    }
+    .cpuPhoto3{
+        width: 95%;
+    }
+    .cpuPhoto4{
+        width: 95%;
+    }
 }
 

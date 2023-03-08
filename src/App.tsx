@@ -3,6 +3,7 @@ import './Css/App.css';
 import Navigation from "./Navigation";
 import DefaultPage from "./Pages/Default";
 import Motherboard from "./Pages/Moterboard";
+import CPU from "./Pages/CPU";
 
 function App() {
 
@@ -17,6 +18,10 @@ function App() {
       case 1:
         return (
           <Motherboard />
+        )
+      case 2:
+        return (
+          <CPU />
         )
     }
   }
