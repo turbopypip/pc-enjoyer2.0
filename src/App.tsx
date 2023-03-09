@@ -4,6 +4,7 @@ import Navigation from "./Navigation";
 import DefaultPage from "./Pages/Default";
 import Motherboard from "./Pages/Moterboard";
 import CPU from "./Pages/CPU";
+import PowerUnit from "./Pages/PowerUnit";
 
 const App = () => {
 
@@ -22,6 +23,10 @@ const App = () => {
       case 2:
         return (
           <CPU />
+        )
+      case 3:
+        return (
+          <PowerUnit />
         )
     }
   }
