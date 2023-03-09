@@ -221,7 +221,22 @@ body{
         content: none;
     }
 
-
+    .linkToTheOtherWebsite{
+        color: #3399ff;
+        text-decoration: none;
+        transition: 0.2ms;
+    }
+    .linkToTheOtherWebsite:hover {
+        text-decoration: underline #ddd;
+    }
+    .linkIcon{
+        color: #4f5151;
+        vertical-align: middle;
+        fill: currentColor;
+    }
+    .linkToTheOtherWebsite:hover .linkIcon{
+        color: aliceblue;
+    }
     /*Motherboard Page*/
 
     .listWithM2SizesAndTypes{
@@ -307,6 +322,27 @@ body{
         width: 95%;
     }
     .cpuPhoto4{
+        width: 95%;
+    }
+
+    /*power unit page*/
+    /*power unit photos*/
+    .powerUnitPhoto1{
+        width: 70%;
+        border: 0.1rem solid #4f5151;
+    }
+    .powerUnitPhoto2{
+        width: 70%;
+        border: 0.1rem solid #4f5151;
+    }
+    .powerUnitPhoto3{
+        width: 70%;
+        border: 0.1rem solid #4f5151;
+    }
+    .powerUnitPhoto4{
+        width: 70%;
+    }
+    .powerUnitPhoto5{
         width: 95%;
     }
 }

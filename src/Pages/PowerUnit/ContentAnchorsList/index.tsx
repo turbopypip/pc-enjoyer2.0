@@ -10,74 +10,50 @@ const ContentAnchorsList = () => {
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"powerunitDescription")}
+               HandleClickScroll(e,"powerUnitDescription")}
           >Описание</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >Размеры (форм-факторы) материнских плат</a>
+               HandleClickScroll(e,"powerUnitForm-Factors")}
+          >Форм-факторы БП</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >Сокет материнской платы</a>
+               HandleClickScroll(e,"powerUnitConnectors")}
+          >Питающие разъёмы БП</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >Совместимость процессора и BIOS платы</a>
+               HandleClickScroll(e,"powerUnitCountOfPower")}
+          >Мощность блока питания</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >Чипсет материнской платы</a>
+               HandleClickScroll(e,"powerUnitNoiseLevel")}
+          >Уровень шума и сертификация Lambda</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >VRM материнской платы</a>
+               HandleClickScroll(e,"powerUnitCertification")}
+          >Сертификация 80 PLUS</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >Охлаждение системы питания</a>
+               HandleClickScroll(e,"powerUnitSelectionAlgorithm")}
+          >Алгоритм выбора БП</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >QVL список, каналы и топология материнской платы</a>
-        </li>
-        <li>
-          <a className="anchorLink"
-             onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >Питание материнской платы</a>
-        </li>
-        <li>
-          <a className="anchorLink"
-             onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >Разъемы</a>
-        </li>
-        <li>
-          <a className="anchorLink"
-             onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >Дополнительные сведения</a>
-        </li>
-        <li>
-          <a className="anchorLink"
-             onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >Алгоритм выбора материнской платы</a>
+               HandleClickScroll(e,"powerUnitPowerCalculator")}
+          >Калькулятор мощности блока питания</a>
         </li>
       </ul>
     </>
