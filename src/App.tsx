@@ -5,6 +5,8 @@ import DefaultPage from "./Pages/Default";
 import Motherboard from "./Pages/Moterboard";
 import CPU from "./Pages/CPU";
 import PowerUnit from "./Pages/PowerUnit";
+import iconButtonUp from "./Icons/buttonUp.png"
+import HandleClickScroll from "./Utils/HandleClickScroll";
 
 const App = () => {
 
@@ -35,7 +37,18 @@ const App = () => {
     <div className="App">
       <Navigation setPage={setPage}/>
 
-      <>{getPage()}</>
+      <>
+        {getPage()}
+        <div className="buttonUpContainer">
+          <a
+            className="buttonUp"
+            onClick={(e) =>
+              HandleClickScroll(e,"root")}
+          >
+            <img src={iconButtonUp} width="50px" height="50px"/>
+          </a>
+        </div>
+      </>
     </div>
   );
 }

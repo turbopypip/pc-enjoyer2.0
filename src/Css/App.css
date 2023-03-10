@@ -73,6 +73,21 @@ body{
         min-height: 100%;
         justify-content: space-between;
     }
+    .buttonUpContainer{
+        transition: all 200ms ease-out;
+        margin: 5%;
+        text-align: center;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+    }
+    .buttonUp{
+        transition: 0.3s;
+        opacity: 0.8;
+    }
+    .buttonUp:hover{
+        opacity: 1;
+    }
 
     /* Navigation panel (PC)*/
     .NavigationColumn__container{

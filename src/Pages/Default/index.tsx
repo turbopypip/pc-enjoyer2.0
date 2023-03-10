@@ -5,7 +5,7 @@ import PhysicsIcon from "../../Icons/PhysicsIcon.svg"
 const DefaultPage = () => {
   return (
     <div  className="PageContainer">
-      <h1 className="sloganAndAccesoireName">PC Enjoyer. Поможем вам собрать пк и не только!</h1>
+      <h1 className="sloganAndAccesoireName" >PC Enjoyer. Поможем вам собрать пк и не только!</h1>
 
       <p>Ниже вы можете ознакомиться со списком задач, для решения которых используется наш сайт:</p>
 
