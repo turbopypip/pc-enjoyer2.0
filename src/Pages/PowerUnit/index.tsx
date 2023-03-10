@@ -7,6 +7,7 @@ import Photo2 from "./Photos/powerUnitPhoto2.png"
 import Photo3 from "./Photos/powerUnitphoto3.png"
 import Photo4 from "./Photos/powerUnitphoto4.svg"
 import Photo5 from "./Photos/powerUnitPhoto5.png"
+import PowerUnitPowerCalculator from "./PowerUnitPowerCalculator";
 
 const PowerUnit = () => {
   return (
@@ -143,6 +144,7 @@ const PowerUnit = () => {
       </p>
 
       <h2 className="contentParagraph" id="powerUnitPowerCalculator">Калькулятор мощности блока питания</h2>
+      <PowerUnitPowerCalculator />
     </div>
   );
 };
