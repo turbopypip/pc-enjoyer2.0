@@ -11,50 +11,44 @@ const ContentAnchorsList = () => {
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"powerUnitDescription")}
+               HandleClickScroll(e,"opMemoryDescription")}
           >Описание</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"powerUnitForm-Factors")}
-          >Форм-факторы БП</a>
+               HandleClickScroll(e,"opMemoryTypes")}
+          >Типы памяти</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"powerUnitConnectors")}
-          >Питающие разъёмы БП</a>
+               HandleClickScroll(e,"opMemoryVolume")}
+          >Объём оперативной памяти</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"powerUnitCountOfPower")}
-          >Мощность блока питания</a>
+               HandleClickScroll(e,"opMemoryFrequency")}
+          >Эффективная частота</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"powerUnitNoiseLevel")}
-          >Уровень шума и сертификация Lambda</a>
+               HandleClickScroll(e,"opMemoryXMPAndDOCP")}
+          >XMP и DOCP профили</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"powerUnitCertification")}
-          >Сертификация 80 PLUS</a>
+               HandleClickScroll(e,"opMemoryOutsideFactors")}
+          >Факторы, влияющие на характеристики памяти</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"powerUnitSelectionAlgorithm")}
-          >Алгоритм выбора БП</a>
-        </li>
-        <li>
-          <a className="anchorLink"
-             onClick={(e) =>
-               HandleClickScroll(e,"powerUnitPowerCalculator")}
-          >Калькулятор мощности блока питания</a>
+               HandleClickScroll(e,"opMemorySelectionAlgorithm")}
+          >Алгоритм выбора оперативной памяти</a>
         </li>
       </ul>
     </>

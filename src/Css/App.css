@@ -389,5 +389,51 @@ body{
     .powerUnitPhoto5{
         width: 95%;
     }
+
+    /*op memory page*/
+    /*op memory photos*/
+
+    .opMemoryPhoto1{
+        width: 70%;
+    }
+    .opMemoryPhoto2{
+        width: 70%;
+    }
+    .opMemoryPhoto3{
+        width: 85%;
+    }
+    .opMemoryPhoto4{
+        border: 0.1rem solid #4f5151;
+        width: 80%;
+    }
+    .opMemoryPhoto5{
+        border: 0.1rem solid #4f5151;
+        width: 80%;
+    }
+    .opMemoryPhoto6{
+        width: 95%;
+    }
+    .opMemoryPhoto7{
+        width: 95%;
+    }
+    .opMemoryPhoto8{
+        width: 95%;
+    }
+    .opMemoryPhoto9{
+        width: 95%;
+    }
+    .opMemoryPhoto10{
+        width: 80%;
+    }
+    .opMemoryPhoto11{
+        width: 40%;
+    }
+    .opMemoryPhoto12{
+        width: 95%;
+    }
+    .opMemoryPhoto13{
+        width: 80%;
+    }
+
 }
 
