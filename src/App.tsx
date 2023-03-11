@@ -7,6 +7,7 @@ import CPU from "./Pages/CPU";
 import PowerUnit from "./Pages/PowerUnit";
 import iconButtonUp from "./Icons/buttonUp.png"
 import HandleClickScroll from "./Utils/HandleClickScroll";
+import OpMemory from "./Pages/OpMemory";
 
 const App = () => {
 
@@ -32,7 +33,7 @@ const App = () => {
         )
       case 4:
         return (
-          <PowerUnit />
+          <OpMemory />
         )
     }
   }
