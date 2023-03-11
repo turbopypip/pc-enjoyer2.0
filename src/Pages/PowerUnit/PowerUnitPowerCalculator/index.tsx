@@ -25,8 +25,8 @@ const PowerUnitPowerCalculator = () => {
       const amdVidValue = formData.get("powerUnitsAmdVd");
       const coolingVentsValue = formData.get("powerUnitsCoolingVents");
       const pompsValue = formData.get("powerUnitsPompsCount");
-      const datesValue = formData.get("powerUnitsM2Count");
-      const m2Value = formData.get("m2");
+      const datesValue = formData.get("powerUnitsSATADatesCount");
+      const m2Value = formData.get("powerUnitsM2Count");
 
       const finalPower = Math.round(
         (Number(intelCpuValue) +
