@@ -30,6 +30,10 @@ const App = () => {
         return (
           <PowerUnit />
         )
+      case 4:
+        return (
+          <PowerUnit />
+        )
     }
   }
 
