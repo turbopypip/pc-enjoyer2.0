@@ -8,6 +8,7 @@ import PowerUnit from "./Pages/PowerUnit";
 import iconButtonUp from "./Icons/buttonUp.png"
 import HandleClickScroll from "./Utils/HandleClickScroll";
 import OpMemory from "./Pages/OpMemory";
+import VideoCard from "./Pages/Videocard";
 
 const App = () => {
 
@@ -34,6 +35,10 @@ const App = () => {
       case 4:
         return (
           <OpMemory />
+        )
+      case 5:
+        return (
+          <VideoCard />
         )
     }
   }

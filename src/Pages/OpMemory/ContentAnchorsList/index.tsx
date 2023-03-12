@@ -3,7 +3,6 @@ import HandleClickScroll from "../../../Utils/HandleClickScroll";
 
 const ContentAnchorsList = () => {
   return (
-
     <>
       <p>Содержание:</p>
 
