@@ -435,5 +435,25 @@ body{
         width: 80%;
     }
 
+    /*case page*/
+    /*case page photos*/
+    .casePhoto1{
+        width: 60%;
+    }
+    .casePhoto2{
+        width: 70%;
+    }
+    .casePhoto3{
+        width: 40%;
+    }
+    .casePhoto4{
+        width: 50%;
+    }
+    .casePhoto5{
+        width: 50%;
+    }
+    .casePhoto6{
+        width: 60%;
+    }
 }
 

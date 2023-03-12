@@ -5,13 +5,13 @@ import DefaultPage from "./Pages/Default";
 import Motherboard from "./Pages/Moterboard";
 import CPU from "./Pages/CPU";
 import PowerUnit from "./Pages/PowerUnit";
-import iconButtonUp from "./Icons/buttonUp.png"
 import HandleClickScroll from "./Utils/HandleClickScroll";
 import OpMemory from "./Pages/OpMemory";
 import VideoCard from "./Pages/Videocard";
+import iconButtonUp from "./Icons/buttonUp.png"
+import Case from "./Pages/Case";
 
 const App = () => {
-
   const[page, setPage] = useState(0)
 
   const getPage = () =>{
@@ -39,6 +39,10 @@ const App = () => {
       case 5:
         return (
           <VideoCard />
+        )
+      case 6:
+        return (
+          <Case />
         )
     }
   }
