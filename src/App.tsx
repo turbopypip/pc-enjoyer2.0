@@ -2,12 +2,12 @@ import React, {useState} from 'react';
 import './Css/App.css';
 import Navigation from "./Navigation";
 import DefaultPage from "./Pages/Default";
-import Motherboard from "./Pages/Moterboard";
+import Motherboard from "./Pages/Motherboard";
 import CPU from "./Pages/CPU";
 import PowerUnit from "./Pages/PowerUnit";
 import HandleClickScroll from "./Utils/HandleClickScroll";
 import OpMemory from "./Pages/OpMemory";
-import VideoCard from "./Pages/Videocard";
+import VideoCard from "./Pages/VideoCard";
 import iconButtonUp from "./Icons/buttonUp.png"
 import Case from "./Pages/Case";
 
