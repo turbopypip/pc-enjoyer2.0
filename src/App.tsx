@@ -10,6 +10,7 @@ import OpMemory from "./Pages/OpMemory";
 import VideoCard from "./Pages/VideoCard";
 import iconButtonUp from "./Icons/buttonUp.png"
 import Case from "./Pages/Case";
+import CoolingSystem from "./Pages/CoolingSystem";
 
 const App = () => {
   const[page, setPage] = useState(0)
@@ -43,6 +44,10 @@ const App = () => {
       case 6:
         return (
           <Case />
+        )
+      case 7:
+        return (
+          <CoolingSystem />
         )
     }
   }
