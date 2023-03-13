@@ -455,5 +455,27 @@ body{
     .casePhoto6{
         width: 60%;
     }
+
+    /*Cooling system*/
+    /*cooling system photos*/
+
+    .coolingSystemPhoto1{
+        width: 55%;
+    }
+    .coolingSystemPhoto2{
+        width: 80%;
+    }
+    .coolingSystemPhoto3{
+        width: 40%;
+    }
+    .coolingSystemPhoto4{
+        width: 40%;
+    }
+    .coolingSystemPhoto5{
+        width: 40%;
+    }
+    .coolingSystemPhoto6{
+        width: 80%;
+    }
 }
 
