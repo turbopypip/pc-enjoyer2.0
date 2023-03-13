@@ -9,7 +9,7 @@
 	.st3{fill:#FFFFFF;stroke:#3398FF;stroke-width:3;stroke-miterlimit:10;}
 	.st4{fill:none;stroke:#187C69;stroke-width:6;stroke-miterlimit:10;}
 	.st5{fill:none;stroke:#9A00CC;stroke-width:6;stroke-miterlimit:10;}
-	.st6{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#969696;stroke-width:4;stroke-miterlimit:10;}
 	.st7{fill:none;}
 	.st8{enable-background:new    ;}
 	.st9{fill:#FFFFFF;}
@@ -19,7 +19,7 @@
 	.st13{fill:none;stroke:#28DDBA;stroke-width:6;stroke-miterlimit:10;}
 </style>
 <g id="Слой_1_1_">
-	<rect x="-66.5" y="-30.166666" class="st0" width="2053" height="1141"/>
+	<rect class="st0" width="1920" height="1080"/>
 </g>
 <g id="Слой_2_1_">
 	<g>
