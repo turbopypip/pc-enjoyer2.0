@@ -13,7 +13,7 @@ const Navigation:FC<Props> = ({setPage}) => {
   return (
     <aside className="NavigationColumn__container">
       <ul className="NavigationColumn">
-        <li><p className="Pc-EnjoyerLogo" onClick={() => handleClick(0)}>Pc-Enjoyer</p></li>
+        <li><p className="Pc-EnjoyerLogo" onClick={() => handleClick(0)}>PC-Enjoyer</p></li>
         <li><p className="PageLinks" onClick={() => handleClick(1)}>Материнская плата</p></li>
         <li><p className="PageLinks" onClick={() => handleClick(2)}>Центральный процессор</p></li>
         <li><p className="PageLinks" onClick={() => handleClick(3)}>Блок питания</p></li>
