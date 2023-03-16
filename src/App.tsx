@@ -11,9 +11,11 @@ import VideoCard from "./Pages/VideoCard";
 import iconButtonUp from "./Icons/buttonUp.png"
 import Case from "./Pages/Case";
 import CoolingSystem from "./Pages/CoolingSystem";
+import PhoneNavigationPanel from "./PhoneNavigationPanel";
 
 const App = () => {
   const[page, setPage] = useState(0)
+  const[showNavigation, setShowNavigation] = useState<boolean>()
 
   const getPage = () =>{
     switch (page){
@@ -54,8 +56,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Navigation setPage={setPage}/>
-
+      {window.innerWidth > 720 ? (<Navigation setPage={setPage}/>) : (<PhoneNavigationPanel />)}
       <>
         {getPage()}
         <div className="buttonUpContainer">
