@@ -477,5 +477,28 @@ body{
     .coolingSystemPhoto6{
         width: 80%;
     }
+
+    /*memory storage photos*/
+    .memoryStoragePhoto1{
+        width: 80%;
+    }
+    .memoryStoragePhoto2{
+        width: 60%;
+    }
+    .memoryStoragePhoto3{
+        width: 60%;
+    }
+    .memoryStoragePhoto4{
+        width: 60%;
+    }
+    .memoryStoragePhoto5{
+        width: 60%;
+    }
+    .memoryStoragePhoto6{
+        width: 70%;
+    }
+    .memoryStoragePhoto7{
+        width: 95%;
+    }
 }
 
