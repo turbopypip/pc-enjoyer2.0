@@ -1,10 +1,19 @@
-import React from 'react';
+import React, {FC} from 'react';
+import NavigationIcon from "../Icons/showNavigationIcon.svg"
 
-const PhoneNavigationPanel = () => {
+type Props = {
+  setShowNavigation: (showNavigation: boolean) => void;
+};
+
+const PhoneNavigationPanel:FC<Props> = ({setShowNavigation}) => {
+
   return (
-    <div>
-      
-    </div>
+    <nav className="PhoneNavigationPanel">
+      <p onClick={() => setShowNavigation(true)}>
+        <img src={NavigationIcon} width="20px" height="20px"/>
+      </p>
+      <p className="Pc-EnjoyerLogoPhone">PC Enjoyer</p>
+    </nav>
   );
 };
 

@@ -82,39 +82,39 @@ body{
     opacity: 1;
 }
 
-.Pc-EnjoyerLogo {
-    margin: 0;
-    color: #3399ff;
-    padding: 1rem 0.7rem 1rem 0.7rem;
-    border-bottom: 0.1rem solid #4F5151;
-    cursor: pointer;
-}
 
-.NavigationColumn__container{
-    z-index: 2;
-    box-sizing: border-box;
-    display: flex;
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    bottom: 0;
-    width: 15em;
-    margin: 0;
-    border-right: 0.1rem solid #4F5151;
-    background-color: #161b22;
-}
-
-.NavigationColumn {
-    margin: 0;
-    padding-left: 1rem;
-    flex-direction: column;
-    list-style-type: none;
-    height: 100vh;
-    flex: 1;
-}
 
 @media screen and (min-width: 720px){
+    .Pc-EnjoyerLogo {
+        margin: 0;
+        color: #3399ff;
+        padding: 1rem 0.7rem 1rem 0.7rem;
+        border-bottom: 0.1rem solid #4F5151;
+        cursor: pointer;
+    }
 
+    .NavigationColumn__container{
+        z-index: 2;
+        box-sizing: border-box;
+        display: flex;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        bottom: 0;
+        width: 15em;
+        margin: 0;
+        border-right: 0.1rem solid #4F5151;
+        background-color: #161b22;
+    }
+
+    .NavigationColumn {
+        margin: 0;
+        padding-left: 1rem;
+        flex-direction: column;
+        list-style-type: none;
+        height: 100vh;
+        flex: 1;
+    }
 
     .App {
         display: flex;
@@ -485,7 +485,63 @@ body{
         width: 80%;
     }
 }
+
 @media screen and (max-width: 720px){
+    .PhoneNavigationPanel{
+        width: 100%;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 0.1em solid #4f5151;
+        background-color: #0d1117;
+    }
+
+    .Pc-EnjoyerLogoPhone{
+        margin: auto;
+        color: aliceblue;
+        font-size: 16px;
+    }
+    .navigationPhone{
+        top: 0;
+        display: flex;
+        position: sticky;
+    }
+
+    .NavigationColumn__container{
+        box-sizing: border-box;
+        display: flex;
+        top: 0;
+        height: 100vh;
+        bottom: 0;
+        margin: 0;
+        border-right: 0.1rem solid #4F5151;
+        background-color: #161b22;
+        left: -15em;
+        flex: 0;
+        position: fixed;
+        width: 15em;
+        z-index: 10;
+        transition: left .25s ease-in-out;
+    }
+    
+    .navigation{
+        display: block;
+    }
+
+    .NavigationColumn{
+        margin: 0;
+        padding-left: 1rem;
+        flex-direction: column;
+        list-style-type: none;
+        height: 100vh;
+        flex: 1;
+        position: sticky;
+    }
+    .navigationCloser{
+        z-index: 2;
+        position: fixed;
+        opacity: 0.8;
+    }
 
 }
 
