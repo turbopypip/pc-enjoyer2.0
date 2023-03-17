@@ -55,7 +55,7 @@ const App = () => {
             className="navigationCloser"
             onClick={() => setShowNavigation(false)}
             style={{
-              width: `${showNavigation ? "100vh" : "0"}`,
+              width: `${showNavigation ? "100vw" : "0"}`,
               height: `${showNavigation ? "100vh" : "0"}`,
             }}
           />
