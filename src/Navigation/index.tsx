@@ -2,10 +2,11 @@ import React , {FC} from 'react';
 import '../Css/App.css'
 
 type Props = {
+  showNavigation?: boolean | null;
   setPage: (page: number) => void;
 };
 
-const Navigation:FC<Props> = ({setPage}) => {
+const Navigation:FC<Props> = ({setPage, showNavigation}) => {
   const handleClick = (number: number) => {
     setPage(number);
   }
