@@ -12,7 +12,7 @@ import PhysicsIcon from "../../Icons/PhysicsIcon.svg";
 
 const MemoryStorage = () => {
   return (
-    <div className="PageContainer">
+    <div>
       <h1 className="sloganAndAccesoireName">Накопители памяти</h1>
 
       <ContentAnchorsList />

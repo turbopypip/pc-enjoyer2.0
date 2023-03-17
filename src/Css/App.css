@@ -92,6 +92,15 @@ body {
   opacity: 1;
 }
 
+.footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #4f5151;
+}
+.footer p{
+  padding: 0 1em;
+  font-size: 12px;
+}
 
 @media screen and (min-width: 720px) {
   .Pc-EnjoyerLogo {
@@ -197,7 +206,6 @@ body {
     margin: 0;
     padding: 0.7rem;
     border-top: 0.1rem solid #4f5151;
-    border-bottom: 0.1rem solid #4f5151;
   }
 
   .Updates:hover {
@@ -576,6 +584,7 @@ body {
     padding: 1rem 0.7rem 1rem 0.7rem;
     cursor: pointer;
     font-size: 18px;
+    border-bottom: 1px solid #4f5151;
   }
 
   .Pc-EnjoyerLogo:hover {
@@ -600,7 +609,6 @@ body {
       margin: 0;
       padding: 0.7rem;
       border-top: 0.1rem solid #4f5151;
-      border-bottom: 0.1rem solid #4f5151;
   }
 
   .Updates:hover {
@@ -608,10 +616,12 @@ body {
   }
 
   .PageContainer {
+    max-width: 96vw;
     flex: 1;
     margin-left: 3vw;
     margin-right: 3vw;
   }
+
   .contentParagraph {
     display: block;
     margin: 2.5rem auto;

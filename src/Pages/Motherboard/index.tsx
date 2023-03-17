@@ -25,7 +25,7 @@ import ContentAnchorsList from "./ContentAnchorsList";
 
 const Motherboard = () => {
   return (
-    <div className="PageContainer">
+    <div>
       <h1 className="sloganAndAccesoireName">Материнская плата</h1>
 
       <ContentAnchorsList />
