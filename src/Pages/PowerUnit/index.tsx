@@ -11,7 +11,7 @@ import PowerUnitPowerCalculator from "./PowerUnitPowerCalculator";
 
 const PowerUnit = () => {
   return (
-    <div className="PageContainer">
+    <div>
       <h1 className="sloganAndAccesoireName">Блок питания</h1>
 
       <ContentAnchorsList />

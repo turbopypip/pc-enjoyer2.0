@@ -9,7 +9,7 @@ import Photo4 from "./Photos/cpuPhoto4.svg"
 
 const CPU = () => {
   return (
-    <div className="PageContainer">
+    <div>
       <h1 className="sloganAndAccesoireName">Центральный процессор</h1>
       <ContentAnchorsList />
 

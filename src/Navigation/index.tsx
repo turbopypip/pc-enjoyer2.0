@@ -23,8 +23,7 @@ const Navigation:FC<Props> = ({setPage, showNavigation}) => {
         <li><p className="PageLinks" onClick={() => handleClick(6)}>Корпус</p></li>
         <li><p className="PageLinks" onClick={() => handleClick(7)}>Система охлаждения</p></li>
         <li><p className="PageLinks" onClick={() => handleClick(8)}>Накопители памяти</p></li>
-        <li><p className="Updates">Обновления</p></li>
-        <li><p className="Copyright">© PC-Enjoyer 2023</p></li>
+        <li><p className="Updates" onClick={() => handleClick(9)}>Обновления</p></li>
       </ul>
     </aside>
   );
