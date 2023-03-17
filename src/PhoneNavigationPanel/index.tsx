@@ -10,7 +10,7 @@ const PhoneNavigationPanel:FC<Props> = ({setShowNavigation}) => {
   return (
     <nav className="PhoneNavigationPanel">
       <p onClick={() => setShowNavigation(true)}>
-        <img src={NavigationIcon} width="20px" height="20px"/>
+        <img src={NavigationIcon} width="20px" height="20px" className="navigationIcon"/>
       </p>
       <p className="Pc-EnjoyerLogoPhone">PC Enjoyer</p>
     </nav>
