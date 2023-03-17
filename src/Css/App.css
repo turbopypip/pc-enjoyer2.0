@@ -156,10 +156,7 @@ body {
   }
 
   /* Pages (PC) */
-  .PageContainer {
-    flex: 1;
-    margin: 1rem 13rem 0 2rem;
-  }
+
 
   .contentParagraph {
     display: block;
@@ -277,7 +274,67 @@ body {
   }
 
   /*Motherboard Page photos*/
-
+  .motherboardPhoto1{
+    width: 60%;
+  }
+  .motherboardPhoto2{
+    width: 60%;
+    border: 0.1rem solid #4f5151;
+  }
+  .motherboardPhoto3{
+    width: 40%;
+  }
+  .motherboardPhoto4{
+    width: 95%;
+  }
+  .motherboardPhoto5{
+    width: 60%;
+  }
+  .motherboardPhoto6{
+    width: 95%;
+  }
+  .motherboardPhoto7{
+    width: 80%;
+  }
+  .motherboardPhoto8{
+    width: 60%;
+  }
+  .motherboardPhoto9{
+    width: 95%;
+  }
+  .motherboardPhoto10{
+    width: 95%;
+  }
+  .motherboardPhoto11{
+    width: 95%;
+  }
+  .motherboardPhoto12{
+    width: 95%;
+  }
+  .motherboardPhoto13{
+    width: 95%;
+  }
+  .motherboardPhoto14{
+    width: 95%;
+  }
+  .motherboardPhoto15{
+    width: 100%;
+  }
+  .motherboardPhoto16{
+    width: 60%;
+  }
+  .motherboardPhoto17{
+    width: 70%;
+  }
+  .motherboardPhoto18{
+    width: 70%;
+  }
+  .motherboardPhoto19{
+    width: 70%;
+  }
+  .motherboardPhoto20{
+    width: 40%;
+  }
   /*cpu page*/
   /*cpu page photos*/
 
@@ -507,9 +564,10 @@ body {
     position: sticky;
   }
   .navigationCloser {
+    background-color: black;
     z-index: 2;
     position: fixed;
-    opacity: 0.8;
+    opacity: 0.6;
   }
 
   .Pc-EnjoyerLogo {
@@ -678,5 +736,164 @@ body {
   }
   .motherboardPhoto20 {
       width: 100%;
+  }
+
+  /*photos cpu*/
+
+  .cpuPhoto1 {
+    width: 100%;
+  }
+  .cpuPhoto2 {
+    width: 100%;
+  }
+  .cpuPhoto3 {
+    width: 100%;
+  }
+  .cpuPhoto4 {
+    width: 100%;
+  }
+
+  /*power unit photos*/
+  .powerUnitPhoto1 {
+    width: 100%;
+    border: 0.1rem solid #4f5151;
+  }
+  .powerUnitPhoto2 {
+    width: 100%;
+    border: 0.1rem solid #4f5151;
+  }
+  .powerUnitPhoto3 {
+    width: 100%;
+    border: 0.1rem solid #4f5151;
+  }
+  .powerUnitPhoto4 {
+    width: 100%;
+  }
+  .powerUnitPhoto5 {
+    width: 100%;
+  }
+
+  /*op memory page*/
+  /*op memory photos*/
+
+  .opMemoryPhoto1 {
+    width: 100%;
+  }
+  .opMemoryPhoto2 {
+    width: 100%;
+  }
+  .opMemoryPhoto3 {
+    width: 100%;
+  }
+  .opMemoryPhoto4 {
+    border: 0.1rem solid #4f5151;
+    width: 100%;
+  }
+  .opMemoryPhoto5 {
+    border: 0.1rem solid #4f5151;
+    width: 100%;
+  }
+  .opMemoryPhoto6 {
+    width: 100%;
+  }
+  .opMemoryPhoto7 {
+    width: 100%;
+  }
+  .opMemoryPhoto8 {
+    width: 100%;
+  }
+  .opMemoryPhoto9 {
+    width: 100%;
+  }
+  .opMemoryPhoto10 {
+    width: 100%;
+  }
+  .opMemoryPhoto11 {
+    width: 100%;
+  }
+  .opMemoryPhoto12 {
+    width: 100%;
+  }
+  .opMemoryPhoto13 {
+    width: 100%;
+  }
+
+  /*case page*/
+  /*case page photos*/
+  .casePhoto1 {
+    width: 100%;
+  }
+  .casePhoto2 {
+    width: 100%;
+  }
+  .casePhoto3 {
+    width: 100%;
+  }
+  .casePhoto4 {
+    width: 100%;
+  }
+  .casePhoto5 {
+    width: 100%;
+  }
+  .casePhoto6 {
+    width: 100%;
+  }
+
+  /*Cooling system*/
+  /*cooling system photos*/
+
+  .coolingSystemPhoto1 {
+    width: 100%;
+  }
+  .coolingSystemPhoto2 {
+    width: 100%;
+  }
+  .coolingSystemPhoto3 {
+    width: 100%;
+  }
+  .coolingSystemPhoto4 {
+    width: 100%;
+  }
+  .coolingSystemPhoto5 {
+    width: 100%;
+  }
+  .coolingSystemPhoto6 {
+    width: 100%;
+  }
+
+  /*memory storage photos*/
+  .memoryStoragePhoto1 {
+    width: 100%;
+  }
+  .memoryStoragePhoto2 {
+    width: 100%;
+  }
+  .memoryStoragePhoto3 {
+    width: 100%;
+  }
+  .memoryStoragePhoto4 {
+    width: 100%;
+  }
+  .memoryStoragePhoto5 {
+    width: 100%;
+  }
+  .memoryStoragePhoto6 {
+    width: 100%;
+  }
+  .memoryStoragePhoto7 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 1000px){
+  .PageContainer{
+    flex: 1;
+    margin: 1rem 3rem 0 2rem;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .PageContainer {
+    flex: 1;
+    margin: 1rem 13rem 0 2rem;
   }
 }
