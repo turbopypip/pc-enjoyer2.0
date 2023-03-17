@@ -553,7 +553,7 @@ const Motherboard = () => {
       </p>
 
       <h2 className="contentParagraph" id="motherboardConnectors">
-        Разъемы
+        Разъёмы
       </h2>
       <h3 className="contentParagraphTopics">M.2 SSD</h3>
 
