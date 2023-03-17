@@ -12,6 +12,8 @@ import iconButtonUp from "./Icons/buttonUp.png";
 import Case from "./Pages/Case";
 import CoolingSystem from "./Pages/CoolingSystem";
 import PhoneNavigationPanel from "./PhoneNavigationPanel";
+import MemoryStorage from "./Pages/MemoryStoragePage";
+
 
 const App = () => {
   const [page, setPage] = useState(0);
@@ -35,6 +37,8 @@ const App = () => {
         return <Case />;
       case 7:
         return <CoolingSystem />;
+      case 8:
+        return <MemoryStorage />
     }
   };
 
