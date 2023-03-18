@@ -10,74 +10,110 @@ const ContentAnchorsList = () => {
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"motherboardDescription")}
-          >Описание</a>
+               HandleClickScroll(e,"descriptionHDD")}
+          >HDD</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"motherboardSizes")}
-          >Размеры (форм-факторы) материнских плат</a>
+               HandleClickScroll(e,"manufacturesHDD")}
+          >Производители HDD</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"motherboardSocket")}
-          >Сокет материнской платы</a>
+               HandleClickScroll(e,"discsPurposes")}
+          >Назначения дисков</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"motherboardCompatibility")}
-          >Совместимость процессора и BIOS платы</a>
+               HandleClickScroll(e,"discStrength")}
+          >Прочность, независимая статистика по браку Backblaze</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"motherboardChipset")}
-          >Чипсет материнской платы</a>
+               HandleClickScroll(e,"HDDFormFactors")}
+          >Форм-факторы HDD</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"motherboardVRM")}
-          >VRM материнской платы</a>
+               HandleClickScroll(e,"HDDValue")}
+          >Объём HDD</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"motherboardPowerSystemCooling")}
-          >Охлаждение системы питания</a>
+               HandleClickScroll(e,"spinSpeed")}
+          >Скорость вращения шпинделя</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"motherboardQVLCanalsTopology")}
-          >QVL список, каналы и топология материнской платы</a>
+               HandleClickScroll(e,"IOPS")}
+          >Количество операций ввода-вывода в секунду (IOPS)</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"motherboardPowerSupply")}
-          >Питание материнской платы</a>
+               HandleClickScroll(e,"cacheMemoryValue")}
+          >Объём кеш-памяти</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"motherboardConnectors")}
-          >Разъемы</a>
+               HandleClickScroll(e,"connectionInterface")}
+          >Интерфейс подключения</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"motherboardExtraInformation")}
-          >Дополнительные сведения</a>
+               HandleClickScroll(e,"HDDSelectionAlgorithm")}
+          >Алгоритм выбора HDD</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"motherboardSelectionAlgorithm")}
-          >Алгоритм выбора материнской платы</a>
+               HandleClickScroll(e,"descriptionSSD")}
+          >SSD</a>
+        </li>
+        <li>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"SSDForm-factors")}
+          >Виды и Форм-факторы SSD</a>
+        </li>
+        <li>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"SpeedSSD")}
+          >Скорости SSD накопителей</a>
+        </li>
+        <li>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"NVMe")}
+          >Стандарт NVMe</a>
+        </li>
+        <li>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"TypesSSD")}
+          >Типы памяти SSD накопителей</a>
+        </li>
+        <li>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"ControllerSSD")}
+          >Контроллер SSD накопителей</a>
+        </li>
+        <li>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"SSDSelectionAlgorithm")}
+          >Алгоритм выбора SSD</a>
         </li>
       </ul>
     </>

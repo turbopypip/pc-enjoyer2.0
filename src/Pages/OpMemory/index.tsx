@@ -18,7 +18,7 @@ import Photo13 from "./Photos/opMemoryPhoto13.svg";
 
 const OpMemory = () => {
   return (
-    <div className="PageContainer">
+    <div>
       <h1 className="sloganAndAccesoireName">Оперативная память</h1>
 
       <ContentAnchorsList />

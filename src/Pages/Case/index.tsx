@@ -11,7 +11,7 @@ import Photo6 from "./Photos/casePhoto6.png"
 
 const Case = () => {
   return (
-    <div className="PageContainer">
+    <div>
       <h1 className="sloganAndAccesoireName">Корпус</h1>
 
       <ContentAnchorsList/>

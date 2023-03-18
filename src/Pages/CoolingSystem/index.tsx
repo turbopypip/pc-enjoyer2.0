@@ -11,7 +11,7 @@ import Photo6 from "./Photos/coolingSystemPhoto6.svg";
 
 const CoolingSystem = () => {
   return (
-    <div className="PageContainer">
+    <div>
       <h1 className="sloganAndAccesoireName">Система охлаждения</h1>
 
       <ContentAnchorsList />

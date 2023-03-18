@@ -4,7 +4,7 @@ import PhysicsIcon from "../../Icons/PhysicsIcon.svg"
 
 const DefaultPage = () => {
   return (
-    <div  className="PageContainer">
+    <div>
       <h1 className="sloganAndAccesoireName" >Поможем вам собрать пк и не только!</h1>
 
       <p>Задачи, которые решает наш сайт:</p>
