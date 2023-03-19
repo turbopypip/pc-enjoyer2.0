@@ -22,6 +22,7 @@ import Photo18 from "./Photos/motherboardPhoto18.png";
 import Photo19 from "./Photos/motherboardPhoto19.png";
 import Photo20 from "./Photos/motherboardPhoto20.png";
 import ContentAnchorsList from "./ContentAnchorsList";
+import styles from './styles.module.css';
 
 const Motherboard = () => {
   return (

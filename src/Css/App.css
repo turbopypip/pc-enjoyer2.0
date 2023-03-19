@@ -550,12 +550,11 @@ body {
     margin: 0;
     border-right: 0.1rem solid #4f5151;
     background-color: #161b22;
-    left: -15em;
     flex: 0;
     position: fixed;
     width: 15em;
     z-index: 10;
-    transition: left 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
   }
 
   .navigation {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Css/App.css";
 import Navigation from "./Navigation";
 import DefaultPage from "./Pages/Default";
@@ -15,16 +15,39 @@ import PhoneNavigationPanel from "./PhoneNavigationPanel";
 import MemoryStorage from "./Pages/MemoryStoragePage";
 import Updates from "./Pages/Updates";
 
+const MOBILE_BREAKPOINT_QUERY = '(max-width: 720px)';
+
+enum Pages {
+  DEFAULT,
+  MOTHERBOARD
+}
+
+const getMobileMedia = () => window.matchMedia(MOBILE_BREAKPOINT_QUERY);
 
 const App = () => {
   const [page, setPage] = useState(0);
   const [showNavigation, setShowNavigation] = useState(false);
+  const [isMobile, setIsMobile] = useState(() => {
+    return getMobileMedia().matches;
+  });
+
+  useEffect(() => {
+    const media = window.matchMedia(MOBILE_BREAKPOINT_QUERY);
+
+    const handleChange = (event: MediaQueryListEvent) => setIsMobile(event.matches);
+
+    media.addEventListener('change', handleChange)
+
+    return () => {
+      media.removeEventListener('change', handleChange)
+    }
+  }, [])
 
   const getPage = () => {
     switch (page) {
-      case 0:
+      case Pages.DEFAULT:
         return <DefaultPage />;
-      case 1:
+      case Pages.MOTHERBOARD:
         return <Motherboard />;
       case 2:
         return <CPU />;
@@ -48,11 +71,11 @@ const App = () => {
   return (
     <div className="App">
 
-      {window.innerWidth > 720 ? (
-        <Navigation setPage={setPage} />
+      {!isMobile ? (
+        <Navigation isMobile={isMobile} setPage={setPage} />
       ) : (
         <div className="navigationPhone">
-          <Navigation setPage={setPage} showNavigation={showNavigation} />
+          <Navigation isMobile={isMobile} setPage={setPage} showNavigation={showNavigation} />
           <PhoneNavigationPanel setShowNavigation={setShowNavigation} />
           <div
             className="navigationCloser"
@@ -96,7 +119,9 @@ const App = () => {
               GitHub
             </a>
           </p>
-          <p>contact.pc-enjoyer@mail.ru</p>
+          <p>
+            <a href="mailto:contact.pc-enjoyer@mail.ru">contact.pc-enjoyer@mail.ru</a>
+          </p>
         </footer>
       </div>
     </div>

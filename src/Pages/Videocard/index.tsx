@@ -5,7 +5,7 @@ import PhysicsIcon from "../../Icons/PhysicsIcon.svg";
 
 const VideoCard = () => {
   return (
-    <div className="PageContainer">
+    <div>
       <h1 className="sloganAndAccesoireName">Видеокарта</h1>
 
       <ContentAnchorsList />
