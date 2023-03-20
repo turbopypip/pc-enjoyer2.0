@@ -19,7 +19,15 @@ const MOBILE_BREAKPOINT_QUERY = '(max-width: 720px)';
 
 enum Pages {
   DEFAULT,
-  MOTHERBOARD
+  MOTHERBOARD,
+  CPU,
+  POWER_UNIT,
+  OP_MEMORY,
+  VIDEO_CARD,
+  CASE,
+  COOLING_SYSTEM,
+  MEMORY_STORAGE,
+  UPDATES
 }
 
 const getMobileMedia = () => window.matchMedia(MOBILE_BREAKPOINT_QUERY);
@@ -43,30 +51,45 @@ const App = () => {
     }
   }, [])
 
+
   const getPage = () => {
     switch (page) {
       case Pages.DEFAULT:
         return <DefaultPage />;
       case Pages.MOTHERBOARD:
         return <Motherboard />;
-      case 2:
+      case Pages.CPU:
         return <CPU />;
-      case 3:
+      case Pages.POWER_UNIT:
         return <PowerUnit />;
-      case 4:
+      case Pages.OP_MEMORY:
         return <OpMemory />;
-      case 5:
+      case Pages.VIDEO_CARD:
         return <VideoCard />;
-      case 6:
+      case Pages.CASE:
         return <Case />;
-      case 7:
+      case Pages.COOLING_SYSTEM:
         return <CoolingSystem />;
-      case 8:
+      case Pages.MEMORY_STORAGE:
         return <MemoryStorage />;
-      case 9:
+      case Pages.UPDATES:
         return <Updates />
     }
   };
+
+  const getNavigationCloserStyle = (showNavigation: boolean) => {
+    const style = {width: "", height: ""}
+    if (showNavigation) {
+      style.width = "100vw"
+      style.height = "100vh"
+      return style
+    }
+    else{
+      style.width = "0"
+      style.height = "0"
+      return style
+    }
+  }
 
   return (
     <div className="App">
@@ -81,8 +104,8 @@ const App = () => {
             className="navigationCloser"
             onClick={() => setShowNavigation(false)}
             style={{
-              width: `${showNavigation ? "100vw" : "0"}`,
-              height: `${showNavigation ? "100vh" : "0"}`,
+              width: getNavigationCloserStyle(showNavigation).width,
+              height: getNavigationCloserStyle(showNavigation).height,
             }}
           />
         </div>
