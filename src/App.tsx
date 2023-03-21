@@ -143,7 +143,7 @@ const App = () => {
             </a>
           </p>
           <p>
-            <a href="mailto:contact.pc-enjoyer@mail.ru">contact.pc-enjoyer@mail.ru</a>
+            <a className="postLink" href="mailto:contact.pc-enjoyer@mail.ru">contact.pc-enjoyer@mail.ru</a>
           </p>
         </footer>
       </div>

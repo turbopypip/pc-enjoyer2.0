@@ -323,6 +323,15 @@ body {
   .linkToTheOtherWebsite:hover .linkIcon {
     color: aliceblue;
   }
+
+  .postLink {
+    color: #3399ff;
+    text-decoration: none;
+    transition: 0.2ms;
+  }
+  .postLink:hover {
+    text-decoration: underline #ddd;
+  }
   /*Motherboard Page*/
 
   .listWithM2SizesAndTypes {
@@ -702,6 +711,15 @@ body {
   }
   .linkToTheOtherWebsite:hover .linkIcon {
       color: aliceblue;
+  }
+
+  .postLink {
+    color: #3399ff;
+    text-decoration: none;
+    transition: 0.2ms;
+  }
+  .postLink:hover {
+    text-decoration: underline #ddd;
   }
 
   .navigationIcon{
