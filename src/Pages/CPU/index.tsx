@@ -191,7 +191,6 @@ const CPU = () => {
         </p>
       </div>
 
-
       <h2 className="contentParagraph" id="cpuTDP">
         TDP процессора
       </h2>
