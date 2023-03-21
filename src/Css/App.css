@@ -112,7 +112,9 @@ body {
 .extraInformation p {
   padding: 0.5em 0.5em;
 }
-
+.extraInformation h2, h3{
+  padding: 0 0.5rem;
+}
 .extraInformationHeader{
   position: absolute;
   top: -2.2em;
