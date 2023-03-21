@@ -174,7 +174,6 @@ body {
 }
 
 .linkToTheOtherWebsite {
-  display: flex;
   justify-content: center;
   color: #3399ff;
   text-decoration: none;
