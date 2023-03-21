@@ -202,16 +202,6 @@ const OpMemory = () => {
       </p>
       <p>Для офисных задач разгон не имеет смысла.</p>
 
-      <div className="extraInformation">
-        <p className="extraInformationHeader">Отличие по типу памяти</p>
-        <p>
-          <img src={PhysicsIcon} width="20" height="20" />
-          По типу памяти в физическом смысле оперативная память отличается
-          количеством электрических сигналов, которые посылаются другими
-          компонентами компьютера в течение одного цикла тактов.
-        </p>
-      </div>
-
       <h2 className="contentParagraph" id="opMemoryXMPAndDOCP">
         XMP и DOCP профили
       </h2>
