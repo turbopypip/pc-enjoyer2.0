@@ -24,7 +24,7 @@ const VideoCard = () => {
       </p>
       <div className="extraInformation">
         <p className="extraInformationHeader">
-          Отличие видеокарты от процессора и принцип её работы
+          Отличия видеокарты
         </p>
         <p>
           <img src={PhysicsIcon} width="20" height="20" />
@@ -264,7 +264,7 @@ const VideoCard = () => {
       </p>
 
       <div className="extraInformation">
-        <p className="extraInformationHeader">Технология трассировки лучей</p>
+        <p className="extraInformationHeader">Трассировка лучей</p>
         <p>
           <img src={PhysicsIcon} width="20" height="20" />С появлением в 2018-году
           архитектуры видеокарт Turing также появилась революционная технология
@@ -330,7 +330,7 @@ const VideoCard = () => {
       </p>
 
       <div className="extraInformation">
-        <p className="extraInformationHeader">Видеопамять графического ускорителя</p>
+        <p className="extraInformationHeader">Графическоий ускоритель</p>
         <p>
           <img src={PhysicsIcon} width="20" height="20" />
           Видеопамять графического ускорителя — его оперативная память, которая
