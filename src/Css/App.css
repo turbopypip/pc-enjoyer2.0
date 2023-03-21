@@ -121,6 +121,36 @@ body {
   color: #3399ff;
 }
 
+
+.powerUnitPowerCalculator {
+  display: inline-block;
+}
+.powerUnitPowerCalculatorOptions {
+  width: 16rem;
+  padding: 0.3rem;
+  margin: 0.4rem 1rem 0.4rem 0;
+  border: 0;
+  border-bottom: 4px solid #3399ff;
+}
+.powerUnitPowerCalculatorSubmit {
+  margin-top: 30px;
+  padding: 10px 12px;
+  color: #dddddd;
+  background: #24292f;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s;
+}
+.powerUnitPowerCalculatorSubmit:hover {
+  -webkit-box-shadow: 0px 5px 5px -5px #3399ff;
+  -moz-box-shadow: 0px 5px 5px -5px #3399ff;
+  box-shadow: 0px 5px 5px -5px #3399ff;
+  transform: translate(0, -2px);
+}
+.powerUnitsPowerCount {
+  color: #3399ff;
+}
+
 @media screen and (min-width: 720px) {
   .Pc-EnjoyerLogo {
     margin: 0;
@@ -379,34 +409,7 @@ body {
   }
 
   /*power unit page*/
-  .powerUnitPowerCalculator {
-    display: inline-block;
-  }
-  .powerUnitPowerCalculatorOptions {
-    width: 16rem;
-    padding: 0.3rem;
-    margin: 0.4rem 1rem 0.4rem 0;
-    border: 0;
-    border-bottom: 4px solid #3399ff;
-  }
-  .powerUnitPowerCalculatorSubmit {
-    margin-top: 30px;
-    padding: 10px 12px;
-    color: #dddddd;
-    background: #24292f;
-    border-radius: 5px;
-    border: none;
-    transition: 0.3s;
-  }
-  .powerUnitPowerCalculatorSubmit:hover {
-    -webkit-box-shadow: 0px 5px 5px -5px #3399ff;
-    -moz-box-shadow: 0px 5px 5px -5px #3399ff;
-    box-shadow: 0px 5px 5px -5px #3399ff;
-    transform: translate(0, -2px);
-  }
-  .powerUnitsPowerCount {
-    color: #3399ff;
-  }
+
 
   /*power unit photos*/
   .powerUnitPhoto1 {
