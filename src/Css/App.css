@@ -153,6 +153,41 @@ body {
   color: #3399ff;
 }
 
+
+.postLink {
+  position: relative;
+  color: #3399ff;
+  text-decoration: none;
+  transition: 0.2ms;
+}
+.postLink:hover {
+  text-decoration: underline #ddd;
+}
+.postIcon{
+  position: absolute;
+  left: -1.7em;
+  top: 0.2em;
+  opacity: 0.6;
+}
+.postLink:hover .postIcon{
+  opacity: 1;
+}
+
+.linkToTheOtherWebsite {
+  color: #3399ff;
+  text-decoration: none;
+  transition: 0.2ms;
+}
+.linkToTheOtherWebsite:hover {
+  text-decoration: underline #ddd;
+}
+.linkIcon {
+  opacity: 0.6;
+}
+.linkToTheOtherWebsite:hover .linkIcon {
+  opacity: 1;
+}
+
 @media screen and (min-width: 720px) {
   .Pc-EnjoyerLogo {
     margin: 0;
@@ -307,31 +342,9 @@ body {
     content: none;
   }
 
-  .linkToTheOtherWebsite {
-    color: #3399ff;
-    text-decoration: none;
-    transition: 0.2ms;
-  }
-  .linkToTheOtherWebsite:hover {
-    text-decoration: underline #ddd;
-  }
-  .linkIcon {
-    color: #4f5151;
-    vertical-align: middle;
-    fill: currentColor;
-  }
-  .linkToTheOtherWebsite:hover .linkIcon {
-    color: aliceblue;
-  }
 
-  .postLink {
-    color: #3399ff;
-    text-decoration: none;
-    transition: 0.2ms;
-  }
-  .postLink:hover {
-    text-decoration: underline #ddd;
-  }
+
+
   /*Motherboard Page*/
 
   .listWithM2SizesAndTypes {
@@ -695,22 +708,6 @@ body {
       opacity: 1;
       color: aliceblue;
       text-decoration: underline #3399ff
-  }
-  .linkToTheOtherWebsite {
-      color: #3399ff;
-      text-decoration: none;
-      transition: 0.2ms;
-  }
-  .linkToTheOtherWebsite:hover {
-      text-decoration: underline #ddd;
-  }
-  .linkIcon {
-      color: #4f5151;
-      vertical-align: middle;
-      fill: currentColor;
-  }
-  .linkToTheOtherWebsite:hover .linkIcon {
-      color: aliceblue;
   }
 
   .postLink {
