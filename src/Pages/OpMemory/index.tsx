@@ -55,7 +55,7 @@ const OpMemory = () => {
       </p>
 
       <div className="extraInformation">
-        <p className="extraInformationHeader">Поколения оперативной памяти</p>
+        <p className="extraInformationHeader">Поколения</p>
         <p>
           <img src={PhysicsIcon} width="20" height="20" />
           Поколения оперативной памяти отличаются физически, а значит и разъёмы

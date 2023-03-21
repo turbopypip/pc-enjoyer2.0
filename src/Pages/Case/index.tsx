@@ -87,7 +87,7 @@ const Case = () => {
       </p>
 
       <div className="extraInformation">
-        <p className="extraInformationHeader">Преимущества такой системы</p>
+        <p className="extraInformationHeader">Преимущества этой системы</p>
         <p>
           <img src={PhysicsIcon} width="20" height="20" />
           1. При такой схеме избегается смешивание холодных и горячих потоков вне

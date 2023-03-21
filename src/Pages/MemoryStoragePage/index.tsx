@@ -30,7 +30,7 @@ const MemoryStorage = () => {
         гораздо меньшую стоимость за гигабайт.
       </p>
       <div className="extraInformation">
-        <p className="extraInformationHeader">Куда записывается информация</p>
+        <p className="extraInformationHeader">Запись информации</p>
         <p>
           <img src={PhysicsIcon} width="20" height="20" />
           Информация в HDD записывается на жёсткие (алюминиевые или стеклянные)

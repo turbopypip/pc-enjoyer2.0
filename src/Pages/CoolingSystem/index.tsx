@@ -133,8 +133,10 @@ const CoolingSystem = () => {
       <p>
         Кулеров подобных форматов будет хватать для процессоров с TDP до ~60 Вт.
       </p>
-      <p style={{ display: "flex" }}>
+      <p>
         <img src={Photo3} className="coolingSystemPhoto3" />
+      </p>
+      <p>
         <img src={Photo4} className="coolingSystemPhoto4" />
       </p>
       <div className="extraInformation">
@@ -194,7 +196,7 @@ const CoolingSystem = () => {
         <img src={Photo5} className="coolingSystemPhoto5" />
       </p>
       <div className="extraInformation">
-        <p className="extraInformationHeader">Новейшие инженерные решения в сфере куллеров</p>
+        <p className="extraInformationHeader">Современные куллеры</p>
 
         <p>
           <img src={PhysicsIcon} width="20" height="20" />
