@@ -14,6 +14,9 @@ import CoolingSystem from "./Pages/CoolingSystem";
 import PhoneNavigationPanel from "./PhoneNavigationPanel";
 import MemoryStorage from "./Pages/MemoryStoragePage";
 import Updates from "./Pages/Updates";
+import LinkIcon from "./Icons/LinkIcon.svg"
+import PostIcon from "./Icons/PostIcon.svg"
+
 
 const MOBILE_BREAKPOINT_QUERY = '(max-width: 720px)';
 
@@ -126,24 +129,13 @@ const App = () => {
               target="_blank"
               className="linkToTheOtherWebsite"
             >
-              <svg
-                className="linkIcon"
-                viewBox="0 0 16 16"
-                version="1.1"
-                width="14"
-                height="14"
-                aria-hidden="true"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"
-                ></path>
-              </svg>
-              GitHub
+              <img src={LinkIcon} width="15" className="linkIcon"/>GitHub
             </a>
           </p>
           <p>
-            <a className="postLink" href="mailto:contact.pc-enjoyer@mail.ru">contact.pc-enjoyer@mail.ru</a>
+            <a className="postLink" href="mailto:contact.pc-enjoyer@mail.ru">
+              <img src={PostIcon} height="12" className="postIcon"/>contact.pc-enjoyer@mail.ru
+            </a>
           </p>
         </footer>
       </div>
