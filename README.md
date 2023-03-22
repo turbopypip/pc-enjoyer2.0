@@ -1,1 +1,1 @@
-# The website witch you can use to know how to build your PC
+# The website wich you can use to know how to build your PC
