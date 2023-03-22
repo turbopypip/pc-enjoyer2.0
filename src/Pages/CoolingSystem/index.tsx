@@ -16,7 +16,7 @@ const CoolingSystem = () => {
 
       <ContentAnchorsList />
 
-      <h2 className="contentParagraph">Описание</h2>
+      <h2 className="contentParagraph" id="coolingDescription">Описание</h2>
       <p>
         <img src={MoneyIcon} width="20" height="20" />
         Башенный кулер – часть системы воздушного охлаждения Вашего ПК,
@@ -64,7 +64,7 @@ const CoolingSystem = () => {
         <img src={Photo2} className="coolingSystemPhoto2" />
       </p>
 
-      <h2 className="contentParagraph">TDP</h2>
+      <h2 className="contentParagraph" id="coolingTDP">TDP</h2>
       <p>
         <img src={MoneyIcon} width="20" height="20" />
         Такой параметр как TDP (конструктивные требования по теплоотводу от
@@ -73,7 +73,7 @@ const CoolingSystem = () => {
         необъективен.
       </p>
 
-      <h2 className="contentParagraph">
+      <h2 className="contentParagraph" id="coolingCoolerSize">
         Размер кулера и других комплектующих.
       </h2>
       <p>
@@ -99,7 +99,7 @@ const CoolingSystem = () => {
         ОЗУ с материнской платы и высоту Вашего ОЗУ).
       </p>
 
-      <h2 className="contentParagraph">Крепление</h2>
+      <h2 className="contentParagraph" id="coolingConnectors">Крепление</h2>
       <p>
         <img src={MoneyIcon} width="20" height="20" />В характеристиках кулера
         указываются и поддерживаемые сокеты, однако не стоит опираться только на
@@ -114,7 +114,7 @@ const CoolingSystem = () => {
         нужный крепёж.
       </p>
 
-      <h2 className="contentParagraph">Параметры выбора</h2>
+      <h2 className="contentParagraph" id="coolingChooseParams">Параметры выбора</h2>
       <p>
         <img src={MoneyIcon} width="20" height="20" />
         Если Вы не собираетесь заниматься разгоном процессора или хотите
@@ -427,7 +427,7 @@ const CoolingSystem = () => {
         толстыми радиаторами.
       </p>
 
-      <h2 className="contentParagraph">Алгоритм выбора системы охлаждения</h2>
+      <h2 className="contentParagraph" id="coolingSelectionAlgorithm">Алгоритм выбора системы охлаждения</h2>
 
       <h3 className="contentParagraphTopics">
         В случае выбора башенного кулера

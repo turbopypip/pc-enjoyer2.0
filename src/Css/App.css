@@ -112,7 +112,7 @@ body {
 .extraInformation p {
   padding: 0.5em 0.5em;
 }
-.extraInformation h2, h3{
+.extraInformation h2, .extraInformation h3{
   padding: 0 0.5rem;
 }
 .extraInformationHeader{
