@@ -10,26 +10,38 @@ const ContentAnchorsList = () => {
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"")}
+               HandleClickScroll(e,"coolingDescription")}
           >Описание</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >Форм-фактор корпуса</a>
+               HandleClickScroll(e,"coolingTDP")}
+          >TDP</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >Охлаждение и организация воздушных потоков</a>
+               HandleClickScroll(e,"coolingCoolerSize")}
+          >Размер кулера и других комплектующих.</a>
         </li>
         <li>
           <a className="anchorLink"
              onClick={(e) =>
-               HandleClickScroll(e,"")}
-          >Дополнительные удобства</a>
+               HandleClickScroll(e,"coolingConnectors")}
+          >Крепление</a>
+        </li>
+        <li>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"coolingChooseParams")}
+          >Параметры выбора</a>
+        </li>
+        <li>
+          <a className="anchorLink"
+             onClick={(e) =>
+               HandleClickScroll(e,"coolingSelectionAlgorithm")}
+          >Алгоритм выбора системы охлаждения</a>
         </li>
       </ul>
     </>
