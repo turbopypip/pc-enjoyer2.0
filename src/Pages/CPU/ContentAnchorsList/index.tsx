@@ -41,7 +41,7 @@ const ContentAnchorsList = () => {
           <a className="anchorLink"
              onClick={(e) =>
                HandleClickScroll(e,"cpuCache")}
-          >Кеш процессора</a>
+          >Кэш процессора</a>
         </li>
         <li>
           <a className="anchorLink"

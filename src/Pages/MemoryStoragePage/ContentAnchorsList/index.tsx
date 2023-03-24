@@ -59,7 +59,7 @@ const ContentAnchorsList = () => {
           <a className="anchorLink"
              onClick={(e) =>
                HandleClickScroll(e,"cacheMemoryValue")}
-          >Объём кеш-памяти</a>
+          >Объём кэш-памяти</a>
         </li>
         <li>
           <a className="anchorLink"
@@ -83,7 +83,7 @@ const ContentAnchorsList = () => {
           <a className="anchorLink"
              onClick={(e) =>
                HandleClickScroll(e,"SSDForm-factors")}
-          >Виды и Форм-факторы SSD</a>
+          >Виды и форм-факторы SSD</a>
         </li>
         <li>
           <a className="anchorLink"
