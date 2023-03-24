@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/pc-enjoyer2.0/static/css/main.48546062.css",
-    "main.js": "/pc-enjoyer2.0/static/js/main.c647f485.js",
+    "main.css": "/pc-enjoyer2.0/static/css/main.e8eab91b.css",
+    "main.js": "/pc-enjoyer2.0/static/js/main.3db0e0d9.js",
     "static/media/opMemoryPhoto2.png": "/pc-enjoyer2.0/static/media/opMemoryPhoto2.b3bb330081f62fe3dab9.png",
     "static/media/motherboardPhoto3.png": "/pc-enjoyer2.0/static/media/motherboardPhoto3.cd9df2a9478e0e204ea1.png",
     "static/media/motherboardPhoto8.png": "/pc-enjoyer2.0/static/media/motherboardPhoto8.d9c7ad91996f6c65f7ae.png",
     "static/media/coolingSystemphoto2.png": "/pc-enjoyer2.0/static/media/coolingSystemphoto2.26ab43fa44a84c4a8b7c.png",
-    "static/media/opMemoryPhoto1.png": "/pc-enjoyer2.0/static/media/opMemoryPhoto1.b8a6ddfcf4b8a5f3d6d1.png",
+    "static/media/motherboardPhoto1.svg": "/pc-enjoyer2.0/static/media/motherboardPhoto1.03d6da342660ecbbd6e0896aec96e557.svg",
+    "static/media/opMemoryPhoto1.svg": "/pc-enjoyer2.0/static/media/opMemoryPhoto1.43c18be1c113ecdb2b2c6e062e8e4834.svg",
     "static/media/coolingSystemPhoto1.png": "/pc-enjoyer2.0/static/media/coolingSystemPhoto1.7e1144bb578a6924117f.png",
     "static/media/motherboardPhoto16.png": "/pc-enjoyer2.0/static/media/motherboardPhoto16.905c676e4e012bc01d82.png",
     "static/media/MemoryStoragePhoto3.png": "/pc-enjoyer2.0/static/media/MemoryStoragePhoto3.f0d543db3e4c137fc43c.png",
@@ -30,7 +31,6 @@
     "static/media/MemoryStoragePhoto1.png": "/pc-enjoyer2.0/static/media/MemoryStoragePhoto1.39d1d21a80c3c07c033c.png",
     "static/media/casePhoto4.png": "/pc-enjoyer2.0/static/media/casePhoto4.22f3982925edbf0ff904.png",
     "static/media/casePhoto2.png": "/pc-enjoyer2.0/static/media/casePhoto2.eb215efc9bb0877f0f26.png",
-    "static/media/motherboardPhoto1.png": "/pc-enjoyer2.0/static/media/motherboardPhoto1.398fd644a53ec831f66c.png",
     "static/media/motherboardphoto2.png": "/pc-enjoyer2.0/static/media/motherboardphoto2.93044945be51ed23fa29.png",
     "static/media/motherboardPhoto18.png": "/pc-enjoyer2.0/static/media/motherboardPhoto18.09ee9cf7e108edc2ef9a.png",
     "static/media/opMemoryPhoto9.svg": "/pc-enjoyer2.0/static/media/opMemoryPhoto9.116b89a0069471b706a4770036660a36.svg",
@@ -70,11 +70,11 @@
     "static/media/PostIcon.svg": "/pc-enjoyer2.0/static/media/PostIcon.7296c35eb57a20ed3b049e53f33f10dd.svg",
     "static/media/LinkIcon.svg": "/pc-enjoyer2.0/static/media/LinkIcon.abe2db34c49f85b206f7bc52ab7a52b6.svg",
     "index.html": "/pc-enjoyer2.0/index.html",
-    "main.48546062.css.map": "/pc-enjoyer2.0/static/css/main.48546062.css.map",
-    "main.c647f485.js.map": "/pc-enjoyer2.0/static/js/main.c647f485.js.map"
+    "main.e8eab91b.css.map": "/pc-enjoyer2.0/static/css/main.e8eab91b.css.map",
+    "main.3db0e0d9.js.map": "/pc-enjoyer2.0/static/js/main.3db0e0d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.48546062.css",
-    "static/js/main.c647f485.js"
+    "static/css/main.e8eab91b.css",
+    "static/js/main.3db0e0d9.js"
   ]
 }
