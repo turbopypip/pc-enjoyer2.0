@@ -1,7 +1,7 @@
 import React from "react";
 import MoneyIcon from "../../Icons/MoneyIcon.svg";
 import PhysicsIcon from "../../Icons/PhysicsIcon.svg";
-import Photo1 from "./Photos/motherboardPhoto1.png";
+import Photo1 from "./Photos/motherboardPhoto1.svg";
 import Photo2 from "./Photos/motherboardphoto2.png";
 import Photo3 from "./Photos/motherboardPhoto3.png";
 import Photo4 from "./Photos/motherboardPhoto4.png";
@@ -22,7 +22,6 @@ import Photo18 from "./Photos/motherboardPhoto18.png";
 import Photo19 from "./Photos/motherboardPhoto19.png";
 import Photo20 from "./Photos/motherboardPhoto20.png";
 import ContentAnchorsList from "./ContentAnchorsList";
-import styles from './styles.module.css';
 
 const Motherboard = () => {
   return (

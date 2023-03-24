@@ -315,7 +315,6 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding: 0 2rem;
-    font-variant: small-caps;
   }
   .listStyle li:before {
     position: absolute;
@@ -358,7 +357,7 @@ body {
 
   /*Motherboard Page photos*/
   .motherboardPhoto1{
-    width: 60%;
+    width: 75%;
   }
   .motherboardPhoto2{
     width: 60%;
