@@ -2,7 +2,7 @@ import React from "react";
 import ContentAnchorsList from "./ContentAnchorsList";
 import MoneyIcon from "../../Icons/MoneyIcon.svg";
 import PhysicsIcon from "../../Icons/PhysicsIcon.svg";
-import Photo1 from "./Photos/opMemoryPhoto1.png";
+import Photo1 from "./Photos/opMemoryPhoto1.svg";
 import Photo2 from "./Photos/opMemoryPhoto2.png";
 import Photo3 from "./Photos/opMemoryPhoto3.svg";
 import Photo4 from "./Photos/opMemoryPhoto4.png";
