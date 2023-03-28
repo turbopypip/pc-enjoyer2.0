@@ -600,11 +600,6 @@ const Motherboard = () => {
         материнской плате.
       </p>
 
-      <ul className="listWithM2SizesAndTypes">
-        <li></li>
-        <li></li>
-      </ul>
-
       <p>
         <img src={Photo15} className="motherboardPhoto15" />
       </p>
