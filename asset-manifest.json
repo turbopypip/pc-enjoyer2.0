@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pc-enjoyer2.0/static/css/main.2f5d5ea0.css",
-    "main.js": "/pc-enjoyer2.0/static/js/main.ef9e2d24.js",
+    "main.js": "/pc-enjoyer2.0/static/js/main.109d9850.js",
     "static/media/opMemoryPhoto2.png": "/pc-enjoyer2.0/static/media/opMemoryPhoto2.b3bb330081f62fe3dab9.png",
     "static/media/motherboardPhoto3.png": "/pc-enjoyer2.0/static/media/motherboardPhoto3.cd9df2a9478e0e204ea1.png",
     "static/media/motherboardPhoto8.png": "/pc-enjoyer2.0/static/media/motherboardPhoto8.d9c7ad91996f6c65f7ae.png",
@@ -51,9 +51,9 @@
     "static/media/casePhoto1.png": "/pc-enjoyer2.0/static/media/casePhoto1.6593e423efe1cb0a495f.png",
     "static/media/motherboardPhoto9.svg": "/pc-enjoyer2.0/static/media/motherboardPhoto9.eec9f5f80f1cb7186a80f7e2b3b7de58.svg",
     "static/media/casePhoto5.png": "/pc-enjoyer2.0/static/media/casePhoto5.60035e632f5cd6962b24.png",
+    "static/media/motherboardPhoto10.svg": "/pc-enjoyer2.0/static/media/motherboardPhoto10.9b70ed85e1230c8f24af0ded97b2d5aa.svg",
     "static/media/opMemoryPhoto10.svg": "/pc-enjoyer2.0/static/media/opMemoryPhoto10.ad336d32bc7307356a60ae5a718d7cdc.svg",
     "static/media/powerUnitPhoto5.png": "/pc-enjoyer2.0/static/media/powerUnitPhoto5.b0595b5dd064be2e5641.png",
-    "static/media/motherboardPhoto10.svg": "/pc-enjoyer2.0/static/media/motherboardPhoto10.590b5ecfc8c0742b6b0dadb3a8dfaec9.svg",
     "static/media/motherboardPhoto7.svg": "/pc-enjoyer2.0/static/media/motherboardPhoto7.3dfceeb73c70f645155036bd42145e9d.svg",
     "static/media/opMemoryPhoto13.svg": "/pc-enjoyer2.0/static/media/opMemoryPhoto13.3dfceeb73c70f645155036bd42145e9d.svg",
     "static/media/motherboardPhoto20.png": "/pc-enjoyer2.0/static/media/motherboardPhoto20.1109e6fe196b6e4d1eaf.png",
@@ -71,10 +71,10 @@
     "static/media/LinkIcon.svg": "/pc-enjoyer2.0/static/media/LinkIcon.abe2db34c49f85b206f7bc52ab7a52b6.svg",
     "index.html": "/pc-enjoyer2.0/index.html",
     "main.2f5d5ea0.css.map": "/pc-enjoyer2.0/static/css/main.2f5d5ea0.css.map",
-    "main.ef9e2d24.js.map": "/pc-enjoyer2.0/static/js/main.ef9e2d24.js.map"
+    "main.109d9850.js.map": "/pc-enjoyer2.0/static/js/main.109d9850.js.map"
   },
   "entrypoints": [
     "static/css/main.2f5d5ea0.css",
-    "static/js/main.ef9e2d24.js"
+    "static/js/main.109d9850.js"
   ]
 }
