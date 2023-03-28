@@ -8,7 +8,6 @@ import PowerUnit from "./Pages/PowerUnit";
 import HandleClickScroll from "./Utils/HandleClickScroll";
 import OpMemory from "./Pages/OpMemory";
 import VideoCard from "./Pages/VideoCard";
-import iconButtonUp from "./Icons/buttonUp.png";
 import Case from "./Pages/Case";
 import CoolingSystem from "./Pages/CoolingSystem";
 import PhoneNavigationPanel from "./PhoneNavigationPanel";
@@ -16,6 +15,7 @@ import MemoryStorage from "./Pages/MemoryStoragePage";
 import Updates from "./Pages/Updates";
 import LinkIcon from "./Icons/LinkIcon.svg"
 import PostIcon from "./Icons/PostIcon.svg"
+import iconButtonUp from "./Icons/buttonUp.png";
 
 
 const MOBILE_BREAKPOINT_QUERY = '(max-width: 720px)';
@@ -79,6 +79,29 @@ const App = () => {
         return <Updates />
     }
   };
+  const [showButtonUp, setShowButtonUp] = useState(false)
+  const navigation = document.getElementById("navigation")
+
+  window.onscroll = () => {
+    if (navigation){
+      if (window.scrollY > navigation.scrollHeight) {
+        setShowButtonUp(true)
+      } else {
+        setShowButtonUp(false)
+      }
+    }
+  }
+
+  const getButtonUpStyle = (showButtonUp: boolean) => {
+    if (showButtonUp){
+      return "block"
+    }
+    else{
+      return "none"
+    }
+  }
+
+
 
   const getNavigationCloserStyle = (showNavigation: boolean) => {
     const style = {width: "", height: ""}
@@ -101,7 +124,7 @@ const App = () => {
         <Navigation isMobile={isMobile} setPage={setPage} />
       ) : (
         <div className="navigationPhone">
-          <Navigation isMobile={isMobile} setPage={setPage} showNavigation={showNavigation} />
+          <Navigation isMobile={isMobile} setPage={setPage} showNavigation={showNavigation}/>
           <PhoneNavigationPanel setShowNavigation={setShowNavigation} />
           <div
             className="navigationCloser"
@@ -115,7 +138,10 @@ const App = () => {
       )}
       <div className="PageContainer">
         {getPage()}
-        <div className="buttonUpContainer">
+      <div className="buttonUpContainer"
+           style={{
+             display: getButtonUpStyle(showButtonUp)
+           }}>
           <a className="buttonUp" onClick={(e) => HandleClickScroll(e, "root")}>
             <img src={iconButtonUp} width="50px" height="50px" />
           </a>
