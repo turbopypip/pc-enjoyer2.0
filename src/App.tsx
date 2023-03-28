@@ -138,7 +138,7 @@ const App = () => {
       )}
       <div className="PageContainer">
         {getPage()}
-      <div className="buttonUpContainer"
+        <div className="buttonUpContainer"
            style={{
              display: getButtonUpStyle(showButtonUp)
            }}>
