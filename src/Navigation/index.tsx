@@ -19,7 +19,7 @@ const Navigation:FC<Props> = ({setPage, showNavigation, isMobile}) => {
   }
 
   return (
-    <aside className="NavigationColumn__container" style={{transform: getTransformStyle()}}>
+    <aside className="NavigationColumn__container" style={{transform: getTransformStyle()}} id="navigation">
       <ul className="NavigationColumn">
         <li><p className="Pc-EnjoyerLogo" onClick={() => handleClick(0)}>PC-Enjoyer</p></li>
         <li><p className="PageLinks" onClick={() => handleClick(1)}>Материнская плата</p></li>
