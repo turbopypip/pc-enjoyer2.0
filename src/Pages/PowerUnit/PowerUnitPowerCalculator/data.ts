@@ -1,8 +1,4 @@
 export const powerUnitsIntelCpu = [{
-  //intel
-  "name": "Выберите ваш процессор Intel",
-  "power": 0
-},{
   "name": "Core I9 12900K",
   "power": 241
 }, {
@@ -173,10 +169,6 @@ export const powerUnitsIntelCpu = [{
 }];
 
 export const powerUnitsAmdCpu = [{
-  //amd
-  "name": "Выберите ваш процессор Amd",
-  "power": 0
-},{
   "name": "Ryzen Threadripper 3990X",
   "power": 280
 },{
@@ -527,10 +519,6 @@ export const powerUnitsAmdCpu = [{
 
 
 export const powerUnitsNVDA = [{
-  //Nvidia videocards
-  "name": "Выберите вашу видеокарту Nvidia",
-  "power": 0
-},{
   "name": "GeForce RTX 3090",
   "power": 350
 },{
@@ -742,10 +730,6 @@ export const powerUnitsNVDA = [{
 
 
 export const powerUnitsAmdVd = [{
-  //Amd videocards
-  "name": "Выберите вашу видеокарту Amd",
-  "power": 0
-},{
   "name": "Radeon RX 6800 XT",
   "power": 300
 },{
@@ -1020,9 +1004,6 @@ export const powerUnitsAmdVd = [{
 
 //вентиляторы
 export const powerUnitsCoolingVents = [{
-  "name": "Количество вентиляторов",
-  "power": 0
-},{
   "name": "1",
   "power": 5
 },{
@@ -1069,9 +1050,6 @@ export const powerUnitsCoolingVents = [{
 //количество помп водяного охлаждения
 
 export const powerUnitsPompsCount = [{
-  "name": "Количество помп",
-  "power": 0
-},{
   "name": "1",
   "power": 10
 },{
@@ -1080,9 +1058,6 @@ export const powerUnitsPompsCount = [{
 }];
 
 export const powerUnitsSATADatesCount =[{
-  "name": "Количество устройств SATA",
-  "power": 0
-},{
   "name": "1",
   "power": 5
 },{
@@ -1139,9 +1114,6 @@ export const powerUnitsSATADatesCount =[{
 }];
 
 export const powerUnitsM2Count = [{
-  "name": "Количество устройств M2",
-  "power": 0
-},{
   "name": "1",
   "power": 9
 },{
