@@ -66,7 +66,7 @@ const PowerUnitPowerCalculator = () => {
             name="powerUnitsAmdVd"
             className="powerUnitPowerCalculatorOptions"
           >
-            <option value="" disabled selected hidden>Выберите видеокарту Nvidia</option>
+            <option value="" disabled selected hidden>Выберите ваш процессор Amd</option>
             {powerUnitsAmdVd.map((Unit) => (
               <option value={`${Unit.power}`}>{Unit.name}</option>
             ))}
@@ -76,7 +76,7 @@ const PowerUnitPowerCalculator = () => {
             name="powerUnitsNVDA"
             className="powerUnitPowerCalculatorOptions"
           >
-            <option value="" disabled selected hidden>Выберите ваш процессор Amd</option>
+            <option value="" disabled selected hidden>Выберите видеокарту Nvidia</option>
             {powerUnitsNVDA.map((Unit) => (
               <option value={`${Unit.power}`}>{Unit.name}</option>
             ))}
