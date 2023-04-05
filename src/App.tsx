@@ -148,7 +148,7 @@ const App = () => {
         </div>
 
         <footer className="footer">
-          <p>© PC-Enjoyer 2023</p>
+          <p>PC-Enjoyer 2023</p>
           <p>
             <a
               href="https://github.com/turbopypip"
