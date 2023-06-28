@@ -1,5 +1,6 @@
-import React , {FC} from 'react';
-import '../Css/App.css'
+import React, { FC, MouseEvent } from "react";
+import HandleClickScroll from "../Utils/HandleClickScroll";
+import "../Css/App.css";
 
 type Props = {
   showNavigation?: boolean | null;
@@ -7,30 +8,55 @@ type Props = {
   isMobile: boolean;
 };
 
-const Navigation:FC<Props> = ({setPage, showNavigation, isMobile}) => {
-  const handleClick = (number: number) => {
+const Navigation: FC<Props> = ({ setPage, showNavigation, isMobile }) => {
+  const handleClick = (e: MouseEvent<HTMLAnchorElement>, number: number) => {
     setPage(number);
-  }
+    HandleClickScroll(e, "root", "auto");
+  };
 
   const getTransformStyle = () => {
     if (showNavigation || !isMobile) return;
 
     return `translateX(-100%)`;
-  }
+  };
 
   return (
-    <aside className="NavigationColumn__container" style={{transform: getTransformStyle()}} id="navigation">
+    <aside
+      className="NavigationColumn__container"
+      style={{ transform: getTransformStyle() }}
+      id="navigation"
+    >
       <ul className="NavigationColumn">
-        <li><p className="Pc-EnjoyerLogo" onClick={() => handleClick(0)}>PC-Enjoyer</p></li>
-        <li><p className="PageLinks" onClick={() => handleClick(1)}>Материнская плата</p></li>
-        <li><p className="PageLinks" onClick={() => handleClick(2)}>Центральный процессор</p></li>
-        <li><p className="PageLinks" onClick={() => handleClick(3)}>Блок питания</p></li>
-        <li><p className="PageLinks" onClick={() => handleClick(4)}>Оперативная память</p></li>
-        <li><p className="PageLinks" onClick={() => handleClick(5)}>Видеокарта</p></li>
-        <li><p className="PageLinks" onClick={() => handleClick(6)}>Корпус</p></li>
-        <li><p className="PageLinks" onClick={() => handleClick(7)}>Система охлаждения</p></li>
-        <li><p className="PageLinks" onClick={() => handleClick(8)}>Накопители памяти</p></li>
-        <li><p className="Updates" onClick={() => handleClick(9)}>Обновления</p></li>
+        <li className="Pc-EnjoyerLogo">
+          <a onClick={(e) => handleClick(e, 0)}>PC-Enjoyer</a>
+        </li>
+        <li className="PageLinks">
+          <a onClick={(e) => handleClick(e, 1)}>Материнская плата</a>
+        </li>
+        <li className="PageLinks">
+          <a onClick={(e) => handleClick(e, 2)}>Центральный процессор</a>
+        </li>
+        <li className="PageLinks">
+          <a onClick={(e) => handleClick(e, 3)}>Блок питания</a>
+        </li>
+        <li className="PageLinks">
+          <a onClick={(e) => handleClick(e, 4)}>Оперативная память</a>
+        </li>
+        <li className="PageLinks">
+          <a onClick={(e) => handleClick(e, 5)}>Видеокарта</a>
+        </li>
+        <li className="PageLinks">
+          <a onClick={(e) => handleClick(e, 6)}>Корпус</a>
+        </li>
+        <li className="PageLinks">
+          <a onClick={(e) => handleClick(e, 7)}>Система охлаждения</a>
+        </li>
+        <li className="PageLinks">
+          <a onClick={(e) => handleClick(e, 8)}>Накопители памяти</a>
+        </li>
+        <li className="Updates">
+          <a onClick={(e) => handleClick(e, 9)}>Обновления</a>
+        </li>
       </ul>
     </aside>
   );
