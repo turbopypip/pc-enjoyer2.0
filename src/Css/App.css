@@ -246,7 +246,7 @@ input[type="radio" i]{
     top: 0;
     height: 100vh;
     bottom: 0;
-    width: 15em;
+    width: 16em;
     margin: 0;
     border-right: 0.1rem solid #4f5151;
     background-color: #161b22;
@@ -270,7 +270,7 @@ input[type="radio" i]{
   /* Navigation panel (PC)*/
 
   .Pc-EnjoyerLogo {
-    font-size: 28px;
+    font-size: 32px;
   }
 
   .Pc-EnjoyerLogo:hover {
@@ -619,7 +619,7 @@ input[type="radio" i]{
   .Pc-EnjoyerLogoPhone {
     margin: auto;
     color: aliceblue;
-    font-size: 16px;
+    font-size: 18px;
   }
   .navigationPhone {
     top: 0;
