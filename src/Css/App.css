@@ -53,6 +53,15 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
+.selectedPageIdentificator{
+  position: absolute;
+  top: 0.35em;
+  left: -1em;
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #3399ff;
+  border-radius: 0.5em;
+}
 
 body {
   margin: 0;
@@ -278,8 +287,10 @@ input[type="radio" i]{
   }
 
   .PageLinks {
+    display: flex;
     margin: 0.7rem;
     cursor: pointer;
+    position: relative;
   }
 
   .PageLinks:hover {

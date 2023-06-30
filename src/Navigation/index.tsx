@@ -1,14 +1,16 @@
 import React, { FC, MouseEvent } from "react";
 import HandleClickScroll from "../Utils/HandleClickScroll";
 import "../Css/App.css";
+import SelectedPageIdentificator from "./SelectedPageIdentificator";
 
 type Props = {
   showNavigation?: boolean | null;
   setPage: (page: number) => void;
   isMobile: boolean;
+  page: number;
 };
 
-const Navigation: FC<Props> = ({ setPage, showNavigation, isMobile }) => {
+const Navigation: FC<Props> = ({ setPage, showNavigation, isMobile, page }) => {
   const handleClick = (e: MouseEvent<HTMLAnchorElement>, number: number) => {
     setPage(number);
     HandleClickScroll(e, "root", "auto");
@@ -31,6 +33,11 @@ const Navigation: FC<Props> = ({ setPage, showNavigation, isMobile }) => {
           <a onClick={(e) => handleClick(e, 0)}>PC-Enjoyer</a>
         </li>
         <li className="PageLinks">
+          {page === 1
+            ?
+            <SelectedPageIdentificator />
+            :
+            <></>}
           <a onClick={(e) => handleClick(e, 1)}>Материнская плата</a>
         </li>
         <li className="PageLinks">
