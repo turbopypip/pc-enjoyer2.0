@@ -121,10 +121,10 @@ const App = () => {
     <div className="App">
 
       {!isMobile ? (
-        <Navigation isMobile={isMobile} setPage={setPage} />
+        <Navigation isMobile={isMobile} setPage={setPage} page={page}/>
       ) : (
         <div className="navigationPhone">
-          <Navigation isMobile={isMobile} setPage={setPage} showNavigation={showNavigation}/>
+          <Navigation isMobile={isMobile} setPage={setPage} showNavigation={showNavigation} page={page}/>
           <PhoneNavigationPanel setShowNavigation={setShowNavigation} />
           <div
             className="navigationCloser"

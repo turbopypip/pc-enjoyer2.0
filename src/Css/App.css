@@ -53,7 +53,20 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
-
+.selectedPageIdentificator{
+  position: absolute;
+  top: 0.35em;
+  left: -1em;
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #3399ff;
+  border-radius: 0.5em;
+}
+.dividingLine{
+  height: 0.01rem;
+  background-color: #4F5151;
+  border: none;
+}
 body {
   margin: 0;
   background-color: #0d1117;
@@ -231,10 +244,8 @@ input[type="radio" i]{
 
 @media screen and (min-width: 720px) {
   .Pc-EnjoyerLogo {
-    margin: 0;
     color: #3399ff;
-    padding: 1rem 0.7rem 1rem 0.7rem;
-    border-bottom: 0.1rem solid #4f5151;
+    margin: 1rem 0.7rem 1rem 0.7rem;
     cursor: pointer;
   }
 
@@ -278,8 +289,10 @@ input[type="radio" i]{
   }
 
   .PageLinks {
+    display: flex;
     margin: 0.7rem;
     cursor: pointer;
+    position: relative;
   }
 
   .PageLinks:hover {
@@ -330,9 +343,9 @@ input[type="radio" i]{
   }
 
   .Updates {
-    margin: 0;
-    padding: 0.7rem;
-    border-top: 0.1rem solid #4f5151;
+    margin: 0.7rem;
+    padding: 0;
+    position: relative;
   }
 
   .Updates:hover {
@@ -663,12 +676,10 @@ input[type="radio" i]{
   }
 
   .Pc-EnjoyerLogo {
-    margin: 0;
     color: #3399ff;
-    padding: 1rem 0.7rem 1rem 0.7rem;
+    margin: 1rem 0.7rem 1rem 0.7rem;
     cursor: pointer;
     font-size: 18px;
-    border-bottom: 1px solid #4f5151;
   }
 
   .Pc-EnjoyerLogo:hover {
@@ -676,8 +687,10 @@ input[type="radio" i]{
   }
 
   .PageLinks {
-      margin: 0.7rem;
-      cursor: pointer;
+    display: flex;
+    margin: 0.7rem;
+    cursor: pointer;
+    position: relative;
   }
 
   .PageLinks:hover {
@@ -690,9 +703,9 @@ input[type="radio" i]{
   }
 
   .Updates {
-      margin: 0;
-      padding: 0.7rem;
-      border-top: 0.1rem solid #4f5151;
+      margin: 0.7rem;
+      padding: 0;
+      position: relative;
   }
 
   .Updates:hover {
