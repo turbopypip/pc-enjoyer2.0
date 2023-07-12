@@ -62,23 +62,25 @@ const PowerUnitPowerCalculator = () => {
     if (selectAMDVideoCard && selectNvidiaVideoCard) {
       return (
         <>
+          <p>AMD</p>
           <select
             name="powerUnitsAmdVd"
             className="powerUnitPowerCalculatorOptions"
             defaultValue={undefined}
           >
-            <option value="" disabled selected hidden>Выберите ваш процессор Amd</option>
             {powerUnitsAmdVd.map((Unit) => (
               <option value={`${Unit.power}`}>{Unit.name}</option>
             ))}
           </select>
+
           <br/>
+
+          <p>Nvidia</p>
           <select
             name="powerUnitsNVDA"
             className="powerUnitPowerCalculatorOptions"
             defaultValue={undefined}
           >
-            <option value="" disabled selected hidden>Выберите видеокарту Nvidia</option>
             {powerUnitsNVDA.map((Unit) => (
               <option value={`${Unit.power}`}>{Unit.name}</option>
             ))}
@@ -88,28 +90,33 @@ const PowerUnitPowerCalculator = () => {
     }
     if (selectNvidiaVideoCard) {
       return (
-        <select
-          name="powerUnitsNVDA"
-          className="powerUnitPowerCalculatorOptions"
-        >
-          <option value="" disabled selected hidden>Выберите видеокарту Amd</option>
-          {powerUnitsNVDA.map((Unit) => (
-            <option value={`${Unit.power}`}>{Unit.name}</option>
-          ))}
-        </select>
+        <>
+          <p>Nvidia</p>
+          <select
+            name="powerUnitsNVDA"
+            className="powerUnitPowerCalculatorOptions"
+          >
+            {powerUnitsNVDA.map((Unit) => (
+              <option value={`${Unit.power}`}>{Unit.name}</option>
+            ))}
+          </select>
+        </>
       );
     }
     if (selectAMDVideoCard) {
       return (
-        <select
-          name="powerUnitsAmdVd"
-          className="powerUnitPowerCalculatorOptions"
-        >
-          <option value="" disabled selected hidden>Выберите видеокарту Amd</option>
-          {powerUnitsAmdVd.map((Unit) => (
-            <option value={`${Unit.power}`}>{Unit.name}</option>
-          ))}
-        </select>
+        <>
+          <p>AMD</p>
+          <select
+            name="powerUnitsAmdVd"
+            className="powerUnitPowerCalculatorOptions"
+          >
+            <option value="" disabled selected hidden>Выберите видеокарту Amd</option>
+            {powerUnitsAmdVd.map((Unit) => (
+              <option value={`${Unit.power}`}>{Unit.name}</option>
+            ))}
+          </select>
+        </>
       );
     }
   };
@@ -121,27 +128,33 @@ const PowerUnitPowerCalculator = () => {
     switch (selectCPU) {
       case CPU.AMD:
         return (
-          <select
-            name="powerUnitsAmdCpu"
-            className="powerUnitPowerCalculatorOptions"
-          >
-            <option value="" disabled selected hidden>Выберите процессор Amd</option>
-            {powerUnitsAmdCpu.map((Unit) => (
-              <option value={`${Unit.power}`}>{Unit.name}</option>
-            ))}
-          </select>
+          <>
+            <p>AMD</p>
+            <select
+              name="powerUnitsAmdCpu"
+              className="powerUnitPowerCalculatorOptions"
+              defaultValue={undefined}
+            >
+              {powerUnitsAmdCpu.map((Unit) => (
+                <option value={`${Unit.power}`}>{Unit.name}</option>
+              ))}
+            </select>
+          </>
         );
       case CPU.INTEL:
         return (
-          <select
-            name="powerUnitsIntelCpu"
-            className="powerUnitPowerCalculatorOptions"
-          >
-            <option value="" disabled selected hidden>Выберите процессор Intel</option>
-            {powerUnitsIntelCpu.map((Unit) => (
-              <option value={`${Unit.power}`}>{Unit.name}</option>
-            ))}
-          </select>
+          <>
+            <p>Intel</p>
+            <select
+              name="powerUnitsIntelCpu"
+              className="powerUnitPowerCalculatorOptions"
+              defaultValue={undefined}
+            >
+              {powerUnitsIntelCpu.map((Unit) => (
+                <option value={`${Unit.power}`}>{Unit.name}</option>
+              ))}
+            </select>
+          </>
         );
     }
   };
