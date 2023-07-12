@@ -111,7 +111,6 @@ const PowerUnitPowerCalculator = () => {
             name="powerUnitsAmdVd"
             className="powerUnitPowerCalculatorOptions"
           >
-            <option value="" disabled selected hidden>Выберите видеокарту Amd</option>
             {powerUnitsAmdVd.map((Unit) => (
               <option value={`${Unit.power}`}>{Unit.name}</option>
             ))}
