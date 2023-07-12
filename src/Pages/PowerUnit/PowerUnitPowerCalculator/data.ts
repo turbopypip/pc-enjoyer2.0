@@ -1004,6 +1004,9 @@ export const powerUnitsAmdVd = [{
 
 //вентиляторы
 export const powerUnitsCoolingVents = [{
+  "name": "0",
+  "power": 0
+},{
   "name": "1",
   "power": 5
 },{
@@ -1050,6 +1053,9 @@ export const powerUnitsCoolingVents = [{
 //количество помп водяного охлаждения
 
 export const powerUnitsPompsCount = [{
+  "name": "0",
+  "power": 0
+},{
   "name": "1",
   "power": 10
 },{
@@ -1058,6 +1064,9 @@ export const powerUnitsPompsCount = [{
 }];
 
 export const powerUnitsSATADatesCount =[{
+  "name": "0",
+  "power": 0
+},{
   "name": "1",
   "power": 5
 },{
@@ -1114,6 +1123,9 @@ export const powerUnitsSATADatesCount =[{
 }];
 
 export const powerUnitsM2Count = [{
+    "name": "0",
+    "power": 0
+},{
   "name": "1",
   "power": 9
 },{
