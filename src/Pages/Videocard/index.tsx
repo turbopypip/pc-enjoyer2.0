@@ -25,7 +25,7 @@ const VideoCard = () => {
       </p>
       <div className="extraInformation">
         <p className="extraInformationHeader">
-          Отличия видеокарты
+          Особенности видеокарты
         </p>
         <p>
           <img src={PhysicsIcon} width="20" height="20" />
