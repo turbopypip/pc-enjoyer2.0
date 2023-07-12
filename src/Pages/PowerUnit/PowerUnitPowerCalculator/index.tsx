@@ -65,6 +65,7 @@ const PowerUnitPowerCalculator = () => {
           <select
             name="powerUnitsAmdVd"
             className="powerUnitPowerCalculatorOptions"
+            defaultValue={undefined}
           >
             <option value="" disabled selected hidden>Выберите ваш процессор Amd</option>
             {powerUnitsAmdVd.map((Unit) => (
@@ -75,6 +76,7 @@ const PowerUnitPowerCalculator = () => {
           <select
             name="powerUnitsNVDA"
             className="powerUnitPowerCalculatorOptions"
+            defaultValue={undefined}
           >
             <option value="" disabled selected hidden>Выберите видеокарту Nvidia</option>
             {powerUnitsNVDA.map((Unit) => (
@@ -152,7 +154,7 @@ const PowerUnitPowerCalculator = () => {
         onSubmit={(e) => handleSubmit(e)}
       >
         <div>
-          <p>Выберите тип видеокарты</p>
+          <p>Выберите производителя видеокарты</p>
           <div className="checkbox">
             <div className="checkboxInputContainer">
               <input
@@ -184,7 +186,8 @@ const PowerUnitPowerCalculator = () => {
           {getVideoCardSelectFields()}
           <br />
 
-          <p>Выберите тип процессора</p>
+          <p>Выберите производителя процессора</p>
+
           <div className="radio">
             <div className="radioInputContainer">
               <input
@@ -199,6 +202,7 @@ const PowerUnitPowerCalculator = () => {
           </div>
 
           <br />
+
           <div className="radio">
             <div className="radioInputContainer">
               <input
@@ -211,16 +215,20 @@ const PowerUnitPowerCalculator = () => {
             </div>
             <span className="radioText">AMD</span>
           </div>
-          <br />
-          {getCPUSelectField()}
-          <br />
-          <p>Остальные комплектующие</p>
 
+          <br />
+
+          {getCPUSelectField()}
+
+          <br />
+
+          <h3  className="contentParagraphTopics">Остальные комплектующие</h3>
+
+          <p>Количество вентиляторов</p>
           <select
             name="powerUnitsCoolingVents"
             className="powerUnitPowerCalculatorOptions"
           >
-            <option value="" disabled selected hidden>Количество вентиляторов</option>
             {powerUnitsCoolingVents.map((Unit) => (
               <option value={`${Unit.power}`}>{Unit.name}</option>
             ))}
@@ -228,11 +236,11 @@ const PowerUnitPowerCalculator = () => {
 
           <br/>
 
+          <p>Количество помп для водяного охладжения</p>
           <select
             name="powerUnitsPompsCount"
             className="powerUnitPowerCalculatorOptions"
           >
-            <option value="" disabled selected hidden>Количество помп</option>
             {powerUnitsPompsCount.map((Unit) => (
               <option value={`${Unit.power}`}>{Unit.name}</option>
             ))}
@@ -240,11 +248,11 @@ const PowerUnitPowerCalculator = () => {
 
           <br/>
 
+          <p>Количество устройств SATA</p>
           <select
             name="powerUnitsSATADatesCount"
             className="powerUnitPowerCalculatorOptions"
           >
-            <option value="" disabled selected hidden>Количество устройств SATA</option>
             {powerUnitsSATADatesCount.map((Unit) => (
               <option value={`${Unit.power}`}>{Unit.name}</option>
             ))}
@@ -252,12 +260,11 @@ const PowerUnitPowerCalculator = () => {
 
           <br/>
 
+          <p>Количество устройств M2</p>
           <select
             name="powerUnitsM2Count"
-            placeholder="amfgoierghpew"
             className="powerUnitPowerCalculatorOptions"
           >
-            <option value="" disabled selected hidden>Количество устройств M2</option>
             {powerUnitsM2Count.map((Unit) => (
               <option value={`${Unit.power}`}>{Unit.name}</option>
             ))}
